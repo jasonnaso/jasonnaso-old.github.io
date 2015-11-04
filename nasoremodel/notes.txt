@@ -1,0 +1,38 @@
+fix form on contacts page in med size
+
+fix form on roof est  page in med size
+
+fix the responsive on the carousels
+
+coursel java script page for test for the resonsive from 
+
+
+in class presentation...make them ask as you go
+hey how was that done (the house coloring thing)  well php etc
+
+// basic auth  look this up
+           // robots.txt   look this up
+           //site map   build this 
+
+fix carousel
+captions under pics
+email
+video page
+praise phrase
+approach href
+hover for estimates page
+show iowas as median?
+font-style/sizes
+
+serif for the subcontent   Garmond    or   scala
+serif for names on testimonials and scala or garmond and italisizes Or italic helvetical
+
+
+video holder???
+
+
+
+scroll up to result box when push button
+Hilight iowa on scroll up?
+
+

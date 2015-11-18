@@ -1,4 +1,4 @@
-
+<body>
 <!-- Container Fluid (Starts In Head File/ Closed In Footer)  -->
 <div class="container main-wrapper">
 	<!-- Row Holds All on Page(Starts in Head Closed In Footer File)) -->
@@ -40,12 +40,12 @@
 
 							<div id="navbar" class="navbar-collapse collapse">
 								<ul class="nav navbar-nav pull-right nav-link-style nav-hover-style">
-									<li><a href="index.php">Home</a></li>
-									<li><a href="contact.php">Contact</a></li>
-									<li><a href="calc.php">Estimate</a></li>
-									<li><a href="gallery.php">Gallery</a></li>
-									<li><a href="testimonials.php">Testimonials</a></li>
-									<li><a href="video.php">Video</a></li>
+									<li><a href="index.php" class="home">Home</a></li>
+									<li><a href="contact.php" class="contact">Contact</a></li>
+									<li><a href="calc.php" class="calc">Estimate</a></li>
+									<li><a href="gallery.php" class="gallery">Gallery</a></li>
+									<li><a href="testimonials.php" class="testimonials">Testimonials</a></li>
+									<li><a href="video.php" class="video">Video</a></li>
 								</ul>
 							</div>
 						</nav>
@@ -58,3 +58,8 @@
 				</div> -->
 
 				<!-- End All Header Content (Logo/Contact/Navbar) -->
+				
+
+
+
+

@@ -16,6 +16,6 @@
 		<link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 		
 		<link rel="stylesheet" href="assets/css/style.min.css?<?php echo time();?>">
-
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
-<body>	
+	

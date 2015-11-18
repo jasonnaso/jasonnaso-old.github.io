@@ -37,53 +37,28 @@
 				      	  	    <div class="form-group">
 				      	  	    	<label  class="col-xs-5 control-label">Paint Grade</label>
 				      	  	    	<div class="col-xs-7">
-				      	  	    		<select class="form-control" id="materialsChoice">
+				      	  	    		<select class="form-control" id="paintMaterialsChoice">
 				      	  	    			<optgroup label="Choose Paint Grade">
-				    	  	  			      	<option value="7">Low Grade</option>
-				    	  	  			      	<option value="10" selected="true">Med Grade</option>
-				    	  	  			      	<option value="15">High Grade</option>
+				    	  	  			      	<option value="15">Low Grade</option>
+				    	  	  			      	<option value="20" selected="true">Med Grade</option>
+				    	  	  			      	<option value="25">High Grade</option>
 				      	  			      	</optgroup>
 				      	  	    		</select>
 				      	  	     	</div>
 				      	  	  	</div>
-
-						  	    <div class="form-group">
+								<div class="form-group">
 				      	  	    	<label  class="col-xs-5 control-label">Primer</label>
 				      	  	    	<div class="col-xs-7">
-				      	  	    		<select class="form-control" id="materialsChoice">
-				      	  	    			<optgroup label="Primer?">
-				    	  	  			      	<option value="0"  selected="true">Yes</option>
-				    	  	  			      	<option value="7">No (Primer is reccomended)</option>
+				      	  	    		<select class="form-control" id="primerMaterialsChoice">
+				      	  	    			<optgroup label="Choose Primer">
+				    	  	  			      	<option value="15"  selected="true">Yes</option>
+				    	  	  			      	<option value="0">No (Primer is reccomended)</option>
 				    	  	  			      	
 				      	  			      	</optgroup>
 				      	  	    		</select>
 				      	  	     	</div>
 				      	  	  	</div>
-								<!--
-					  	  	    <div class="form-group">
-					  	  	    	<label  class="col-xs-5 control-label">Tear Off</label>
-					  	  	    	<div class="col-xs-7">
-					  	  	    		<select class="form-control"  id="tearoff">
-					  	  			  		<option selected="selected" value="yes">YES - 1 layer</option>
-					  	  			  		<option value="yes2">YES - 2 layers</option>
-					  	  			  		<option value="3">Yes - 3 Layers</option>
-					  	  			  		<option value="no">NO tear-off</option>
-					  	  	    		</select>
-					  	  	     	</div>
-					  	  	  	</div>
-
-					  	  	    <div class="form-group">
-					  	  	    	<label  class="col-xs-5 control-label">Materials</label>
-					  	  	    	<div class="col-xs-7">
-					  	  	    		<select class="form-control" id="materials">
-					  	  			      	<option value="0" selected="selected">30 yr. shingles</option>
-					  	  			      	<option value="1">50 yr. shingles</option>
-					  	  			      	<option value="2">Steel Shingles</option>
-					  	  	    		</select>
-					  	  	     	</div>
-					  	  	  	</div> -->
-					
-					    		<div class="form-group">
+								<div class="form-group">
 					        		<div class="col-xs-offset-3 col-xs-9">
 					             	<button id="paintCalculator" class="btn btn-default pull-right">Show Estimate</button>
 					        		</div>

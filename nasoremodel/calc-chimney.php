@@ -16,7 +16,7 @@
 						<div class="panel-heading calc-box-title">Calculate</div>
 						<div class="panel-body">
 							
-							<form class="form-horizontal">
+							<div class="form-horizontal">
 
 								<!-- /////////Calc Choice//////// -->
 								<?php 	include("calc-choice.php");?>
@@ -84,10 +84,10 @@
 					
 					    		<div class="form-group">
 					        		<div class="col-xs-offset-3 col-xs-9">
-					             	<button type="submit" id="submit" class="btn btn-default pull-right">Show Estimate</button>
+					             	<button  id="submit" class="btn btn-default pull-right">Show Estimate</button>
 					        		</div>
 					    		</div>
-							</form>
+							</div>
 						</div>
 					</div>
 				</div><!--End Calculator (col-sm-6)-->

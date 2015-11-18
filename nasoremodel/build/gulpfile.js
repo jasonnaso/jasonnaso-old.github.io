@@ -15,10 +15,10 @@ var config = {
 
 var gulp = require('gulp'),
 
-    uglify = require('gulp-uglify'),
-    rename = require('gulp-rename'),
-    include = require('gulp-include'),
-    sass = require('gulp-ruby-sass'),
+    uglify      = require('gulp-uglify'),
+    rename      = require('gulp-rename'),
+    include     = require('gulp-include'),
+    sass        = require('gulp-ruby-sass'),
     plumber     = require('gulp-plumber'),
     gutil       = require('gulp-util');
     browserSync = require('browser-sync').create();

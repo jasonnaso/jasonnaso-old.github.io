@@ -15,5 +15,5 @@
 
 //= require ./custom/equalize.js
 //= require ./custom/custom-script-two.js
-//= require ./custom/custom-script.js
+//= require ./custom/estimate-script.js
 

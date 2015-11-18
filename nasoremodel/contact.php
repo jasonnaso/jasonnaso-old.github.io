@@ -63,26 +63,34 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="row">
 						<div class="col-sm-12">
 							<p class="contact-lower-statment contact-statement  center-md"><strong>Please call or email with any questions or concerns!</strong></p>
 						</div>
 					</div>
 				</div>
-
 				<div class="col-md-6 ">
+
+					
 					<div class="row">
 						<div class="col-sm-12">
 							<p class="page-title">Email Us</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12">
-							<?php include("includes/email.php");?>
+						<div class="col-sm-10 col-sm-offset-2">
+							<?php include("alert.php");?>
 						</div>
 					</div>
+					<div class="row">
+						<div class="col-sm-12">
+							<?php include("includes/email.php");?>
+
+						</div>
+					</div>
+
 				</div>
+
 
 			</div><!-- Names-Adresses/Contact/Email Form -->
 

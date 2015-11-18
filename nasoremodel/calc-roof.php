@@ -79,7 +79,7 @@
 					  	  	    <div class="form-group">
 					  	  	    	<label  class="col-xs-5 control-label">Materials</label>
 					  	  	    	<div class="col-xs-7">
-					  	  	    		<select class="form-control" id="materialsChoice">
+					  	  	    		<select class="form-control" id="roofMaterialsChoice">
 					  	  	    			<optgroup label="Choose Materials">
 						  	  			      	<option value="1.1">30 yr. shingles 1.1</option>
 						  	  			      	<option value="1.7" selected="true">50 yr. shingles 1.7</option>
@@ -90,8 +90,12 @@
 					  	  	  	</div>
 					
 					    		<div class="form-group">
-					        		<div class="col-xs-offset-3 col-xs-9">
-					             	<button  id="roofCalculator" class="btn btn-default pull-right calc_sq_ft">Show Estimate</button>
+									
+									<div class="col-xs-9">
+					    				<h4>Naso Remodels Own Estimate: <span class="nasoEstimate">$ 0.00</span></h4>
+									</div>
+					        		<div class="col-xs-3">
+										<button  id="roofCalculator" class="btn btn-default pull-right calc_sq_ft">Show Estimate</button>
 					        		</div>
 					    		</div>
 							</div>
@@ -118,11 +122,9 @@
 						</div>
 						<div class="roof-text"></div>
 					</div><!-- End House Image -->
-					<div class="panel panel-default">
-					  <div class="panel-body">
-					    <h4>Naso Consttrucions Own Estimate: <span id="nasoEstimate"></span></h4>
-					  </div>
-					</div>
+
+					
+					  
 				</div><!-- House Image And Title (Col-sm-6) -->
 			</div><!--End Calculator/House (Row)-->
 			<div class="curt"></div>

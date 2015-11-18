@@ -1,13 +1,13 @@
 <?php
 	
+	//Random calculator choice on page load
 	$calculator = array(
-
-
-	      "calc-roof.php",
-	      "calc-window.php",
-	      "calc-chimney.php",
-	      "calc-door.php",
-	      "calc-paint.php"
+		
+		"calc-roof.php",
+	    "calc-window.php",
+	    "calc-chimney.php",
+	    "calc-door.php",
+	    "calc-paint.php"
 	);
 	    
 	    $max = count($calculator);

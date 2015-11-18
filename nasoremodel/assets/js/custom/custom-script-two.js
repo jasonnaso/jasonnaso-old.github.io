@@ -3,14 +3,29 @@
     
     init: function(){
         
+        // this.recaptcha();
         this.usMap();
         this.chooseRoofComplexity();
         this.truncateString();
         this.imgFadeIn();
         this.calcChoice();
         this.resultBoxHover();
+        this.navBarHighlight();
         
     },
+
+    navBarHighlight: function(){
+        
+        console.log("navBarHighlight");
+            $('a').each(function() {
+                if ($(this).prop('href') == window.location.href) {
+                $(this).addClass('currentNavChoiceColor');
+                }
+        });
+    },
+    
+
+   
 
     //Map Hover
     usMap: function (){
@@ -36,7 +51,7 @@
     //Drop Down Choose Roof Complexity
     chooseRoofComplexity: function (){
 
-        console.log("here");
+        // console.log("here");
         $('.difficult').removeClass("hiding");
             
         $('.target').change(function(){

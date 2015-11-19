@@ -67,21 +67,21 @@
              
             if (showNewPic === "simple"){
 
-                var simple = "Simple Complexity"; 
-                $(".roof-text").html("<h3>" + simple + "</h3>");
+                var simple = "Simple Roof Complexity"; 
+                $(".roof-complexity-text").html("<div>" + simple + "</div>");
 
             }
             if (showNewPic === "medium"){
 
-                var medium = "Medium Complexity"; 
-                $(".roof-text").html("<h3>" + medium + "</h3>");
+                var medium = "Medium RoofComplexity"; 
+                $(".roof-complexity-text").html("<div>" + medium + "</div>");
 
             }
 
             if (showNewPic === "difficult"){
 
-                var difficult = "Difficult Complexity"; 
-                $(".roof-text").html("<h3>" + difficult + "</h3>");
+                var difficult = "Difficult Roof Complexity"; 
+                $(".roof-complexity-text").html("<div>" + difficult + "</div>");
             }
         });
     },

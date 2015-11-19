@@ -15,7 +15,7 @@ hey how was that done (the house coloring thing)  well php etc
            //site map   build this 
 
 fix carousel
-captions under pics
+
 email
 video page
 praise phrase
@@ -31,10 +31,21 @@ serif for names on testimonials and scala or garmond and italisizes Or italic he
 video holder???
 
 
+captions under pics
 
-scroll up to result box when push button
 Hilight iowa on scroll up?
 
 why is the numbers disapearing on the paint calc
+add pics on contact form
+
+footer and nav in includes or only php stuff
+
+ask about this http://stackoverflow.com/questions/6761662/php-includes-and-folders
+
+add in rest of pics
+
+permissions are 0755
+
+fix estamates calc size
 
 

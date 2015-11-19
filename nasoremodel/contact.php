@@ -17,7 +17,7 @@
 						</div>
 					</div>
 
-					<div class="row">
+					<div class="row contact-margin center-md">
 						<div class="col-sm-6">
 							<div class="contact-info center-md">
 								<p>Project Manager</p>
@@ -26,6 +26,10 @@
 								<p>Mobile: 319-621 6491</p>
 								<p>1805 Stevens Drive 52240</p>
 								<p><a href="mailto:curtis1025@yahoo.com?Subject=Hello%20Curtis" target="_top">curtis1025@yahoo.com</a></p>
+							</div>
+						
+							<div class="contact-picture">
+								<img src="assets/images/contactPage/curtSmallBW.jpg">
 							</div>
 						</div>
 
@@ -38,19 +42,9 @@
 								<p>1805 Stevens Drive 52240</p>
 								<p><a href="mailto:david@davidnaso.com?Subject=Hello%20David" target="_top">david@davidnaso.com</a></p>
 							</div>
-						</div>
-					</div>
-					
-					<div class="row contact-margin center-md">
-						<div class="col-sm-6">
-							<div class="contact-info">
-							PICTURE
-							</div>
-						</div>
-
-						<div class="col-sm-6">
-							<div class="contact-info center-md">
-							PICTURE	
+						
+							<div class="contact-picture center-md">
+								<img src="assets/images/contactPage/davidSmallBW.jpg">	
 							</div>
 						</div>
 					</div>
@@ -61,6 +55,9 @@
 						</div>
 					</div>
 				</div>
+
+
+
 
 				<div class="col-md-6 ">
 					<div class="row">

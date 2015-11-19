@@ -7,7 +7,7 @@
 	<!-- /////////////////////////////// -->
 
 	<!-- Open with Row And Col-sm-12 -->
-	<div class="row">
+	<div class="row"> 
 		<!-- Close with Row And Col-sm-12 -->
 		<div class="col-sm-12 white">
 			
@@ -27,27 +27,185 @@
 						<div class="col-sm-12">
 
 							<div class="naso-remodel-gallery-corousel">
-								<div><img src='assets/images/galleryImages/carousel/i.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/a.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/b.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/c.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/d.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/e.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/j.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/g.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/h.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Ash-Live-Edge-Slab-Counter.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Ash Live Edge Slab Counter</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Custom-Walnut-Tables.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Custom Walnut Tables</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Live-Edge-Ash-Slab-Counter-Detail.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Live Edge Ash Slab Counter Detail</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-North-Liberty.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe North Liberty</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Patchwork-Wainscoting-of-Six-Woods.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Patchwork Wainscoting of Six Woods</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Six-Top-and-Two-Top-Tables.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Six Top and Two Top Tables</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Six-Top-Walnut-Tables.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Six Top Walnut Tables</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Table-Area-Overview.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Table Area Overview</p>
+      								</div>
+      							</div>
+      							<div>
+									<img src='assets/images/galleryImages/carousel/Bluebird-Cafe-Walnut-Table-Detail.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+      									<p>Bluebird Cafe Walnut Table Detail</p>
+      								</div>
+      							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Buzz-Salon-Basswood-Display-Logs.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Buzz Salon Basswood Display Logs</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Buzz-Salon-Product-Display-Shelves.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Buzz Salon Product Display Shelves</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Buzz-Salon-Reception-Desk-Spalted-Maple.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Buzz Salon Reception Desk Spalted Maple</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Buzz-Salon-Sign.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Buzz Salon Sign</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Buzz-Salon-Walnut-Live-Edge-Work-Stations-1.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Buzz Salon Walnut Live Edge Work Stations</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/dave-curt-bw.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Dave and Curtis</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Englert-Theater-Restoration-Mirror.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Englert Theater Restoration Mirror</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Englert-Theater-Restoration-Ticket-Booth.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Englert Theater Restoration Ticket Booth</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Englert-Theater-Restoration-White-Oak-Doors.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Englert Theater Restoration White Oak Doors</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Hunnicutt-Porch-Remodel-In-Progress.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Hunnicutt Porch Remodel In Progress</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/M-C-Ginsberg-Freestanding-Display-Case.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>M.C. Ginsberg Freestanding Display Case</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/M-C-Ginsberg-Glass-Display-Shelves.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>M.C. Ginsberg Glass Display Shelves</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/M-C-Ginsberg-Jewelry-Display-Drawers.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>M.C. Ginsberg Jewelry Display Drawers</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/M-C-Ginsberg-Objects-of-Art-Cherry-Wall-Unit.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>M.C. Ginsberg Objects of Art Cherry Wall Unit</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/M-C-Ginsberg-Remodel-Overview.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>M.C. Ginsberg Remodel Overview</p>
+	  								</div>
+	  							</div>
+	  							<div>
+									<img src='assets/images/galleryImages/carousel/Sicily-Boutique-Display-Cabinet.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/>
+									<div class="carousel-caption">
+	  									<p>Sicily-Boutique-Display-Cabinet.jpg</p>
+	  								</div>
+	  							</div>
+
 							</div>
 
 							<div class="slider-nav-gallery">
-								<div><img src='assets/images/galleryImages/carousel/i.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/a.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/b.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/c.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/d.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/e.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/j.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/g.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
-								<div><img src='assets/images/galleryImages/carousel/h.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Ash-Live-Edge-Slab-Counter-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Custom-Walnut-Tables-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Live-Edge-Ash-Slab-Counter-Detail-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-North-Liberty-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Patchwork-Wainscoting-of-Six-Woods-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Six-Top-and-Two-Top-Tables-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Six-Top-Walnut-Tables-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Table-Area-Overview-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Bluebird-Cafe-Walnut-Table-Detail-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Buzz-Salon-Basswood-Display-Logs-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Buzz-Salon-Product-Display-Shelves-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Buzz-Salon-Reception-Desk-Spalted-Maple-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Buzz-Salon-Sign-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Buzz-Salon-Walnut-Live-Edge-Work-Stations-1-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/dave-curt-bw-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Englert-Theater-Restoration-Mirror-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Englert-Theater-Restoration-Ticket-Booth-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Englert-Theater-Restoration-White-Oak-Doors-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Hunnicutt-Porch-Remodel-In-Progress-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/M-C-Ginsberg-Freestanding-Display-Case-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/M-C-Ginsberg-Glass-Display-Shelves-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/M-C-Ginsberg-Jewelry-Display-Drawers-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/M-C-Ginsberg-Objects-of-Art-Cherry-Wall-Unit-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/M-C-Ginsberg-Remodel-Overview-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
+								<div><img src='assets/images/galleryImages/thumbs/Sicily-Boutique-Display-Cabinet-thumb.jpg' class="img-responsive" alt="Naso Remodel Gallery Pictures"/></div>
 							</div>
 						</div><!--End Corousel and title (col-md-12) -->
 					</div><!--Corousel(row) -->

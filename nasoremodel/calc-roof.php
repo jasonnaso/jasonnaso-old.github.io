@@ -55,9 +55,9 @@
 						  	    	<div class="col-xs-7">
 						  	    		<select class="form-control target" id="complexity">
 						  	    			<optgroup label="Choose Complexity">
-							  			      	<option id="roofAppears" value="simple">Simple  (1 Chimney 2 Gutters)</option>
-							  			      	<option selected="true" value="medium" >Medium  (2 Chimneys 4 Gutters)</option>
-							  			      	<option value="difficult">Difficult (2 Chimneys 4 Gutters Skylights)</option>
+							  			      	<option id="roofAppears" value="simple">Simple  Roof Complexity</option>
+							  			      	<option selected="true" value="medium" >Medium  Roof Complexity</option>
+							  			      	<option value="difficult">Difficult Roof Complexity</option>
 						  			      	</optgroup>
 						  			    </select>
 						  	     	</div>
@@ -117,7 +117,7 @@
 							<img src="assets/images/calc-house-images/simple-roof.png" class="center-block img-responsive simple hiding house-pic" id="calcFade">
 							<img src="assets/images/calc-house-images/medium-roof.png" class="center-block img-responsive medium hiding house-pic" id="calcFade">
 						</div>
-						<div class="roof-text"><h3>Difficult Complexity</h3></div>
+						<div class="roof-complexity-text">Difficult Roof Complexity</div>
 					</div><!-- End House Image -->
 
 				</div><!-- House Image And Title (Col-sm-6) -->

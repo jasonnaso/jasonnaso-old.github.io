@@ -19,9 +19,9 @@ $(document).ready(function(){
 $('.naso-remodel-gallery-corousel').slick({
 
     	autoplay: true,
-    	autoplaySpeed: 3000,
+    	autoplaySpeed: 500,//change speed
     	infinite: true,
-    	speed: 1000,
+    	speed: 500,//Speed of fade in
     	cssEase: 'linear',
     	slidesToShow: 1,
     	slidesToScroll: 1,
@@ -35,7 +35,7 @@ $('.naso-remodel-gallery-corousel').slick({
   	});
 
 $('.slider-nav-gallery').slick({
-  	  slidesToShow: 2,
+  	  slidesToShow: 4,
   	  slidesToScroll: 1,
   	  asNavFor: '.naso-remodel-gallery-corousel',
   	  centerMode: true,

@@ -655,10 +655,7 @@ overflow: hidden;
 
 }
 
-.roof-text h3{
 
-    text-align: center;
-}
 .calc-hide-pic{
 
     display:none;
@@ -719,10 +716,13 @@ overflow: hidden;
     }
 }
 
-.btn-details{
+.roof-complexity-text{
 
-   
-
+    font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+    font-size: 15px;
+    color: #004a75;
+    font-weight: 600;
+    text-align: center;
 }
 
 /*.btn-details{

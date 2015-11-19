@@ -90,7 +90,7 @@ gulp.task('scripts', function() {
 
        .pipe(include())
        .pipe(rename({suffix: '.min' }))
-       //.pipe(uglify())  //take this away if you want to see line numbers for errors...
+       .pipe(uglify())  //take this away if you want to see line numbers for errors...
        .pipe(gulp.dest(config.js));
     
 });

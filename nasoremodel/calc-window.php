@@ -22,23 +22,18 @@
 								<!-- /////////End Calc Choice//////// -->
 
 							    <div class="form-group">
-							    	<label  class="col-xs-5 control-label">Number of Windows:</label>
-							    	<div class="col-xs-7">
-							    		<select class="form-control" id="numberOfWindows">
-									      	<option value="1">1</option>
-									      	<option value="2">2</option>
-									      	<option value="3">3</option>
-									      	<option value="4">4</option>
-									      	<option value="5">5</option>
-							    		</select>
-							     	</div>
-							  	</div>
+							  		<label for="inputPassword3" class="col-xs-5 control-label">Number Of Windows</label>
+						  	    	<div class="col-xs-7">
+						  	        	<input type="number" class="form-control" id="numberOfWindows" placeholder="1">
+						  	    	</div>
+						  		</div>	
 
 					    		<div class="form-group">
 					        		<div class="col-xs-offset-3 col-xs-9">
-					             	<button  id="submit" class="btn btn-default pull-right">Show Estimate</button>
+					             	<button  id="btnWindowCalculator" class="btn btn-default pull-right">Show Estimate</button>
 					        		</div>
 					    		</div>
+
 							</div>
 						</div>
 					</div>
@@ -51,8 +46,8 @@
 						<div class="col-xs-12">
 							<p class="page-title">Window Installation Estimate&#42;</p>
 						</div>
-					</div>
-					<!-- End Title -->
+					</div><!-- End Title -->
+
 					<!-- House Image -->
 					<div class="row">
 						<div class="col-md-12 calc-hide-pic" id="calcFade">
@@ -71,16 +66,11 @@
 			<!--End Map And Statement -->
 			
 		</div>
-	</div>
-	<!-- Close with Row And Col-sm-12 -->
+	</div><!-- Close with Row And Col-sm-12 -->
 
 	<!-- /////////////////////////////// -->
 	<!-- /// End Page Content Here////// -->
 	<!-- /////////////////////////////// -->
-			
-		
-<!--Start Sub Content-->
-<!--End Sub Content-->
 <!-- Start Footer -->
 <?php 	include("includes/footer.php");?>
 <!-- End Footer -->

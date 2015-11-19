@@ -16,6 +16,7 @@
 							<p class="page-title">Contact Information</p>
 						</div>
 					</div>
+
 					<div class="row">
 						<div class="col-sm-6">
 							<div class="contact-info center-md">
@@ -43,72 +44,51 @@
 					<div class="row contact-margin center-md">
 						<div class="col-sm-6">
 							<div class="contact-info">
-								<p>Burner</p>
-								<p>Jon Doe</p>
-								<p>Phone: 319-338-0497</p>
-								<p>Mobile: 319-621-5555</p>
-								<p>1805 Stevens Drive 52240</p>
-								<p><a href="mailto:ralph@wiggum.com?Subject=Hello%20David" target="_top">ralph@wiggum.com</a></p>
+							PICTURE
 							</div>
 						</div>
 
 						<div class="col-sm-6">
 							<div class="contact-info center-md">
-								<p>Burner</p>
-								<p>Jane Doe</p>
-								<p>Phone: 319-338-0497</p>
-								<p>Mobile: 319-621-5555</p>
-								<p>1805 Stevens Drive 52240</p>
-								<p><a href="mailto:ralph@wiggum.com?Subject=Hello%20David" target="_top">ralph@wiggum.com</a></p>
+							PICTURE	
 							</div>
 						</div>
 					</div>
+
 					<div class="row">
 						<div class="col-sm-12">
 							<p class="contact-lower-statment contact-statement  center-md"><strong>Please call or email with any questions or concerns!</strong></p>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 ">
 
-					
+				<div class="col-md-6 ">
 					<div class="row">
 						<div class="col-sm-12">
 							<p class="page-title">Email Us</p>
 						</div>
 					</div>
+
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-2">
-							<?php include("alert.php");?>
+							<?php include("includes/captcha.php");?>
 						</div>
 					</div>
+
 					<div class="row">
 						<div class="col-sm-12">
 							<?php include("includes/email.php");?>
-
 						</div>
 					</div>
-
 				</div>
-
-
 			</div><!-- Names-Adresses/Contact/Email Form -->
 
 		</div>
-	</div>
-	
-
-
-
-	<!-- Close with Row And Col-sm-12 -->
+	</div><!-- Close with Row And Col-sm-12 -->
 
 	<!-- /////////////////////////////// -->
 	<!-- /// End Page Content Here////// -->
 	<!-- /////////////////////////////// -->
-			
-		
-<!--Start Sub Content-->
-<!--End Sub Content-->
 <!-- Start Footer -->
 <?php 	include("includes/footer.php");?>
 <!-- End Footer -->

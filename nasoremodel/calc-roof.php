@@ -20,6 +20,7 @@
 								<!-- /////////Calc Choice//////// -->
 								<?php 	include("calc-choice.php");?>
 								<!-- /////////End Calc Choice//////// -->
+
 								<div class="form-group ">
 									<label  class="col-xs-5 control-label">Length</label>
 									<div class="col-xs-7">
@@ -40,10 +41,10 @@
 							    		<select class="form-control" id="slope">
 							    			<optgroup label="Choose Slope">
 										      	<option value="1">Flat 0°</option>
-										      	<option value="1.118">Low Slope 26.6° 1.118</option>
-										      	<option value="1.414" selected="true">Medium Slope 45° 1.414</option>
-										      	<option value="1.803">Steep Slope 56.3° 1.803</option>
-										      	<option value="2.236">Very Steep Slope 63.4 2.236</option>
+										      	<option value="1.118">Low Slope 26.6°</option>
+										      	<option value="1.414" selected="true">Medium Slope 45°</option>
+										      	<option value="1.803">Steep Slope 56.3°</option>
+										      	<option value="2.236">Very Steep Slope 63.4°</option>
 									      	</optgroup>
 							    		</select>
 							     	</div>
@@ -90,14 +91,11 @@
 					  	  	  	</div>
 					
 					    		<div class="form-group">
-									
-									<div class="col-xs-9">
-					    				<h4>Naso Remodels Own Estimate: <span class="nasoEstimate">$ 0.00</span></h4>
-									</div>
-					        		<div class="col-xs-3">
-										<button  id="roofCalculator" class="btn btn-default pull-right calc_sq_ft">Show Estimate</button>
+					        		<div class="col-xs-12">
+										<button  id="btnRoofCalculator" class="btn btn-default pull-right calc_sq_ft">Show Estimate</button>
 					        		</div>
 					    		</div>
+
 							</div>
 						</div>
 					</div>
@@ -110,45 +108,38 @@
 						<div class="col-xs-12">
 							<p class="page-title">Roof Installation Estimate&#42;</p>
 						</div>
-					</div>
-					<!-- End Title -->
+					</div><!-- End Title -->
+
 					<!-- House Image -->
 					<div class="row">
 					    <div class="col-md-12 calc-hide-pic" id="calcFade">
 							<img src="assets/images/calc-house-images/calc-roof.png" class="center-block img-responsive difficult hiding house-pic" id="calcFade">
 							<img src="assets/images/calc-house-images/simple-roof.png" class="center-block img-responsive simple hiding house-pic" id="calcFade">
 							<img src="assets/images/calc-house-images/medium-roof.png" class="center-block img-responsive medium hiding house-pic" id="calcFade">
-							
 						</div>
-						<div class="roof-text"></div>
+						<div class="roof-text"><h3>Difficult Complexity</h3></div>
 					</div><!-- End House Image -->
 
-					
-					  
 				</div><!-- House Image And Title (Col-sm-6) -->
 			</div><!--End Calculator/House (Row)-->
-			<div class="curt"></div>
-			<!--Result Box  -->
-			<?php include("resultBox.php");?>
-			<!--End Result Box  -->
+		<div class="all-original-costs"></div>
 
-
-
-			<!--Map And Statement-->
-			<?php include ("map.php");?>
-			<!--End Map And Statement -->
-			
-		</div>
-	</div>
-	<!-- Close with Row And Col-sm-12 -->
-
-	<!-- /////////////////////////////// -->
-	<!-- /// End Page Content Here////// -->
-	<!-- /////////////////////////////// -->
-			
+		<!--Result Box  -->
+		<?php include("resultBox.php");?>
+		<!--End Result Box  -->
 		
-<!--Start Sub Content-->
-<!--End Sub Content-->
+		<!--Map And Statement-->
+		<?php include ("map.php");?>
+		<!--End Map And Statement -->
+		
+	</div>
+</div><!-- Close with Row And Col-sm-12 -->
+
+<!-- /////////////////////////////// -->
+<!-- /// End Page Content Here////// -->
+<!-- /////////////////////////////// -->
+
 <!-- Start Footer -->
 <?php 	include("includes/footer.php");?>
 <!-- End Footer -->
+

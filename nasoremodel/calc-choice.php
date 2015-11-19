@@ -11,7 +11,3 @@
         </select>
     </div>
 </div>
-
-<!-- http://stackoverflow.com/questions/2000656/using-href-links-inside-option-tag
-Use a real dropdown menu instead: a list (ul, li) and links. Never misuse form elements as links. -->
-

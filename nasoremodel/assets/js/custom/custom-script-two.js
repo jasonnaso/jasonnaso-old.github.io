@@ -56,10 +56,13 @@
             
         $('.target').change(function(){
 
+
             var roofPic = $(".house-pic");
             var showNewPic = $(this).val();
 
             $(".house-pic").addClass("hiding");
+
+
             $("." + showNewPic).removeClass("hiding");
              
             if (showNewPic === "simple"){

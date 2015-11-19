@@ -35,4 +35,6 @@ video holder???
 scroll up to result box when push button
 Hilight iowa on scroll up?
 
+why is the numbers disapearing on the paint calc
+
 

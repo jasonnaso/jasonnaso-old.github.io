@@ -1,7 +1,4 @@
-
-				<!-- (Included) -->
 <?php 	include("includes/head.php");
-				// (Included)
 		include("includes/header.php")
 ?>			
 			<!-- /////////////////////////////// -->
@@ -33,7 +30,6 @@
 	<?php include("includes/subContent.php");?>
 	<!--End Sub Content-->
 
-	
 	<!-- Start Footer (Included)-->
 	<?php include("includes/footer.php");?>
 	<!-- End Footer -->

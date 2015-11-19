@@ -20,6 +20,7 @@
 								<!-- /////////Calc Choice//////// -->
 								<?php 	include("calc-choice.php");?>
 								<!-- /////////End Calc Choice//////// -->
+								
 								<div class="form-group ">
 									<label  class="col-xs-5 control-label">Length</label>
 									<div class="col-xs-7">
@@ -46,6 +47,7 @@
 				      	  	    		</select>
 				      	  	     	</div>
 				      	  	  	</div>
+
 								<div class="form-group">
 				      	  	    	<label  class="col-xs-5 control-label">Primer</label>
 				      	  	    	<div class="col-xs-7">
@@ -58,11 +60,13 @@
 				      	  	    		</select>
 				      	  	     	</div>
 				      	  	  	</div>
+
 								<div class="form-group">
 					        		<div class="col-xs-offset-3 col-xs-9">
-					             	<button id="paintCalculator" class="btn btn-default pull-right">Show Estimate</button>
+					             	<button id="btnPaintCalculator" class="btn btn-default pull-right">Show Estimate</button>
 					        		</div>
 					    		</div>
+
 							</div>
 						</div>
 					</div>
@@ -95,16 +99,12 @@
 			<!--End Map And Statement -->
 			
 		</div>
-	</div>
-	<!-- Close with Row And Col-sm-12 -->
+	</div><!-- Close with Row And Col-sm-12 -->
 
 	<!-- /////////////////////////////// -->
 	<!-- /// End Page Content Here////// -->
 	<!-- /////////////////////////////// -->
-			
-		
-<!--Start Sub Content-->
-<!--End Sub Content-->
+
 <!-- Start Footer -->
 <?php 	include("includes/footer.php");?>
 <!-- End Footer -->

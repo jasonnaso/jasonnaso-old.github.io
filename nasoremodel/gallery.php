@@ -1,6 +1,5 @@
-<?php include("includes/head.php");
-
-	  include("includes/header.php")
+<?php 	include("includes/head.php");
+		include("includes/header.php")
 ?>
 
 	<!-- /////////////////////////////// -->
@@ -117,10 +116,6 @@
 	<!-- /////////////////////////////// -->
 	<!-- /// End Page Content Here////// -->
 	<!-- /////////////////////////////// -->
-		
-<!--Start Sub Content-->
-<!--End Sub Content-->
-
 
 <!-- Start Footer -->
 <?php include("includes/footer.php");?>

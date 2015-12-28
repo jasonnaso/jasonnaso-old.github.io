@@ -20,17 +20,12 @@
 
 		<div id="gptGame"></div>
 
-		<div class="timed-out-overlay">
-			<div class="overlay-text">Timed Out</div>
-			<div class="overlay-text">Banner</div>
-		</div>
-
-		<div class="winner-overlay">
-			<div class="overlay-text">Winner!  Nice Shooting!</div>
-			<div class="overlay-text">Banner</div>
-		</div>
-		<div class="loser-overlay">
-			<div class="overlay-text">Sorry You needed all three.</div>
+		<div class="end-game-overlay hide-this">
+			<div class="overlay-text timed-out hide-this">Timed Out</div>
+			<div class="overlay-text winner hide-this">Winner!  Nice Shootin Tex!</div>
+			<div class="overlay-text zero-hits hide-this">Zero Hits...Do you need Glasses?</div>
+			<div class="overlay-text one-hit hide-this">One Hit...Ones ok, I guess</div>
+			<div class="overlay-text two-hits hide-this">Two Hits...Close but no cigar.</div>
 			<div class="overlay-text">Banner</div>
 		</div>
  		

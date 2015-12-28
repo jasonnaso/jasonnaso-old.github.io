@@ -46,6 +46,18 @@
     
 }
 
+.end-game-overlay{
+
+    display: none;
+    background-image: url("../assets/images/overlay.png");
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    
+}
+
 .btn-start{
 
     position: absolute;

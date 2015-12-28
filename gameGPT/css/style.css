@@ -1,0 +1,63 @@
+.overlay{
+
+    background-image: url("../assets/images/overlay.png");
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+    
+}
+
+.end-game-overlay{
+
+    display: none;
+    background-image: url("../assets/images/overlay.png");
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+}
+
+.btn-start{
+
+    position: absolute;
+    bottom: 20px;
+    margin-left: -103px;
+    left: 50%;
+}
+.game-container{
+
+    position: relative;
+ }
+
+.opening-overlay-text{
+    
+    color: white;
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+}
+
+.good-luck{
+    
+    color: white;
+    font-size: 60px;
+    margin: 50px;
+    text-align: center;
+}
+
+.overlay-text{
+    
+
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+}
+
+.hide-this{
+
+    display: none;
+}

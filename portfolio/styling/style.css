@@ -1,0 +1,29 @@
+body{
+
+	background-image: url("../assets/images/cityImage.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.one{
+
+	/*background-color: green;
+	background-image: url("../assets/images/cityImage.jpg");
+	height: 1500px;
+    /*background-size: cover;
+    background-attachment: fixed;*/
+
+}
+
+.two{
+	
+	background-color: yellow;
+
+}
+
+.three{
+	
+	background-color: blue;
+
+}
+

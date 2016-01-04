@@ -5,8 +5,9 @@ body{
     background-attachment: fixed;
 }
  
-.background{
+.hide-this{
 
+	display: none;
 
 }
 
@@ -14,6 +15,8 @@ body{
 
 	margin: 10px;
 }
+
+/*Remeber to hide the top row single button and hav it show on the bottom when under 1200*/
 
 .my-btns {
 	-moz-box-shadow:inset 0px 1px 0px 0px #fce2c1;

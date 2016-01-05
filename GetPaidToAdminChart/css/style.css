@@ -1,0 +1,69 @@
+body{
+  background-color: white;
+}
+
+/*Holds all alerts*/
+.placeholders {
+    padding: 20px;  
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-alerts-pink{
+    border: solid 10px #d82893;
+    background-color: #ffe8e8;
+}
+
+.admin-alerts-blue{
+    border: solid 10px #0e75bb;
+    background-color: #e6f5ff;
+}
+
+.admin-alerts-red{
+    border: solid 10px #da4f49;
+    background-color: #fbeaea;
+    
+}
+.admin-alerts-green{
+    border: solid 10px #74bb53;
+    background-color: #eafcde;
+}
+
+.admin-alerts-all{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.admin-alerts-text {
+    position: relative;
+    top: 10%;
+    /*transform: translateY(-50%);why this doesnt affect the numbers*/
+    font-family: "Arial";
+    font-size: 50px;
+}
+
+
+.canvasStyling{
+    width:100%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.canvas-both div h3 {
+    text-align: center;    
+    font-family: arial;
+
+    
+}
+.nav-pills{
+     
+     margin-left: 35%;
+}
+
+
+
+

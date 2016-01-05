@@ -26,8 +26,8 @@ var gameObj = {
         var timedOutTimer = 30;
         var endGameTimer = 5;
         var endMusicTimer = 3000;
-        var sitePlacementX = 50;  //(Math.floor(Math.random() * randomPlacement));
-        var sitePlacementY = 350; // Max Is 388 (Other wise it disregaurds the first bounce() method)
+        var sitePlacementX = 50;  
+        var sitePlacementY = 350; // Max Is 388 (Otherwise it disregaurds the first bounce())
         var siteVelocity = 300;
         var siteMaxSpeed = 1200;
         var gameTries = 0;
@@ -38,7 +38,7 @@ var gameObj = {
         var gunShotSound;
         var birdPlacementY = 500;
 
-        var game = new Phaser.Game(800, 600, Phaser.AUTO, 'gptGame', { preload: preload, create: create, update: update});
+        var game = new Phaser.Game(800, 600, Phaser.CANVAS, 'gptGame', { preload: preload, create: create, update: update});
         
         //PHASERs Preload: Preload all images sprites and sounds
         function preload() {
@@ -54,23 +54,23 @@ var gameObj = {
     	    game.load.image('btnSetAim', 'assets/images/btnSetAim.png', 193, 71);
     	   	game.load.image('btnFire', 'assets/images/btnFire.png', 193, 71);
             game.load.spritesheet('target-sprite', 'assets/images/target-sprite.png',103, 131,8);
-            game.load.spritesheet('hit', 'assets/images/hit.png',263, 199,8);
+            game.load.spritesheet('hit', 'assets/images/hit-new.png',263, 199,8);
 
             //Spritesheet
             game.load.spritesheet('bird', 'assets/images/bird.png', 70, 70);
             //Audio
+            //game.load.audio('musicForGame', ['assets/audio/musicForGame.mp3']);
             game.load.audio('gunShot', ['assets/audio/gunShot.mp3']);
             game.load.audio('guncocking', ['assets/audio/gunCocking.mp3']);
-            game.load.audio('themeMusic', ['assets/audio/themeMusic.mp3']);
+          
         }
         //PHASERs create function
         function create() {
 
-            //add music
-            themeMusic = game.add.audio('themeMusic');
-
-            //themeMusic.loopFull = true;
-            themeMusic.onDecoded.add(startThemeMusic, this);
+            // add music if wanted
+            // themeMusic = game.add.audio('themeMusic');
+            // themeMusic.loopFull = true;
+            // themeMusic.onDecoded.add(startThemeMusic, this);
 
             //Unbind keydown and click
             $(document).off('keydown');
@@ -96,7 +96,7 @@ var gameObj = {
             crate = crates.create(350, 376, 'crate');
             crate = crates.create(360, 255, 'crate');
 
-            //Create target
+            //  Create target
             targets = game.add.group();
             targets.enableBody = true;
 
@@ -131,11 +131,10 @@ var gameObj = {
             btnSetAim = game.add.button(game.world.centerX - 95, 525, 'btnSetAim', setAim, this, 2, 1, 0);
         }
 
-        //Start Music
-        function startThemeMusic(){
-
-            themeMusic.fadeIn(3000);
-        }
+        // //Start Music
+        // function startThemeMusic(){
+        // themeMusic.fadeIn(3000);
+        // }
 
         // Create Gun Site and Transparent Site
         function createGunSite(){
@@ -189,7 +188,6 @@ var gameObj = {
             gunSite = game.add.sprite(gunSite.x, gunSite.y, 'gunSite');
             transparentSite = gunSite.addChild(game.make.sprite(50, 50,'transparentSite'));
 
-            
             game.physics.enable( gunSite , Phaser.Physics.ARCADE);
 
             gunSite.body.velocity.y = siteVelocity;
@@ -238,14 +236,13 @@ var gameObj = {
                 
                 score++;
                 scoreText.text = 'Score: ' + score;
-
-               
-
-                hit = targets.create(570, 0, "hit");
                 
+                hit = targets.create(550, 50, "hit");
+                
+                game.time.events.add(200, function() {
 
-               game.time.events.add(200, function() {
                     game.add.tween(hit).to({alpha: 0}, 200, Phaser.Easing.Linear.None, true);
+
                 }, this);
             }
 
@@ -290,7 +287,7 @@ var gameObj = {
                 gunSite.kill();
 
                 $(document).off('keydown');
-                themeMusic.fadeOut(endMusicTimer);
+                // themeMusic.fadeOut(endMusicTimer);
                 game.time.events.add(Phaser.Timer.SECOND * endGameTimer, endGame, this);
             }
 
@@ -314,14 +311,11 @@ var gameObj = {
             $('.gptGame').fadeOut();
             $('.end-game-overlay').fadeIn();
             $('.timed-out').fadeIn();
-            themeMusic.fadeOut(endMusicTimer);
+            // themeMusic.fadeOut(endMusicTimer);
             game.time.events.add(Phaser.Timer.SECOND * endGameTimer, endGame, this);
         }
      }
 };
 
 $(window).load (function(){gameObj.init();});
-//http://www.phaser.io/examples/v2/loader/load-events
-//http://phaser.io/tutorials/making-your-first-phaser-game/part2
-//http://www.williammalone.com/articles/html5-animation-sprite-sheet-photoshop/
-//http://www.owensouthwood.com/mrgoggles/
+

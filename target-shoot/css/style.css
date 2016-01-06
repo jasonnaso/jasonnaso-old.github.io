@@ -6,9 +6,7 @@ body{
 .title{
 
     color: white;
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
+    text-align: left;
 
 }
 .overlay{

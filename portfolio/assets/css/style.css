@@ -1,6 +1,7 @@
 body{
 	
-	background-image: url("../assets/images/background-image.jpg");
+	background-image: url("../images/bg.jpg");
+	/*background-image: url("../images/bg2.jpg");*/
     background-size: cover;
     background-attachment: fixed;
 }
@@ -14,6 +15,7 @@ body{
 .my-btns{
 
 	margin: 10px;
+	width: 140px;
 }
 
 /*Remeber to hide the top row single button and hav it show on the bottom when under 1200*/
@@ -59,6 +61,118 @@ body{
 	position:relative;
 	top:1px;
 }
+
+
+
+/*///////////////////////*/
+
+
+#container {
+
+	width: 520px;
+	height: 150px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 10em;
+
+    /* min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;*/
+}
+
+.inside-container{
+	
+	 margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+
+}
+
+.border {
+	position: absolute;
+	width: 0px; border: 1px solid black; 
+}
+/*.borderh { 
+	height: 0px; border: 1px solid black; 
+}
+.borderv { 
+	width: 0px; border: 1px solid black; 
+}*/
+
+#topbar {   
+	left: 0px; top: 0px;
+}
+#rightbar {
+	right: 0px; top: 0px;
+}
+#bottombar {   
+	right: 0px; bottom: 0px;
+}
+#leftbar {
+	left: 0px; bottom: 0px;
+}
+
+
+
+
+
+
+
+
+/*#content {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+   border-divs are 0px wide with 1px border all around, thus have a width & height of 2px (twice the border-width) -- 2 border-divs = 4 less pixels for the content ! 
+  width: 316px;
+  height: 236px;
+  background: red;
+  overflow: auto;
+  text-shadow: 0 0 1px #555;
+  text-align: justify;
+}
+		*/
+
+
+/*#loader{
+		 z-index:999999;
+		 display:block;
+		 position:fixed;
+		 top:0;
+		 left:0;
+		 width:100%;
+		 height:100%;
+		 background:url(../images/gears.gif) 50% 50% no-repeat #cccccc;
+		}*/
+		
+/*.modal {
+
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('http://i.stack.imgur.com/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}*/
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+/*body.loading {
+    overflow: hidden;   
+}
+
+ Anytime the body has the loading class, our
+   modal element will be visible 
+body.loading .modal {
+    display: block;
+}*/
+
 
 
 

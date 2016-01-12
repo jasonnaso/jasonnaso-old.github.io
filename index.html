@@ -7,28 +7,68 @@
 	<link rel="stylesheet" type="text/css" href="portfolio/assets/css/style.css">
 </head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-8">
-					<a href="http://jasonnaso.github.io/target-shoot/" type="button" class="btn my-btns">Target Shoot</a> 
-					<a href="http://jasonnaso.github.io/world-of-poker/" type="button" class="btn my-btns">World Of Poker</a>
-					<a href="http://nasoRemodel.com" type="button" class="btn my-btns">Naso Remodel</a>
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-xs-8">
-					<a href="jensenOnlineImages/index.html" type="button" class="btn my-btns">Jensen Online</a>
-					<a href="http://jasonnaso.github.io/GetPaidToAdminChart" type="button" class="btn my-btns">GPT Admin Chart</a>
-					<a href="http://www.raketherake.com//" type="button" class="btn my-btns">RTR Wings Task</a>
-				</div>
-			</div>
-		</div>
+
+
+
+
+	<div id="loader-wrapper">
+	    <div id="loader"></div>
+		<div class="loader-section section-left"></div>
+	    <div class="loader-section section-right"></div>
+	</div>
+		
+
+		
+		
+		  <div id="container">
+
+		    <div class="border borderh" id="topbar"></div>
+		    <div class="border borderv" id="rightbar"></div>
+		    <div class="border borderh" id="bottombar"></div>
+		    <div class="border borderv" id="leftbar"></div>
+		    <div id="content">
+				<div class="inside-container">
+		    	<div class="row">
+		    		<div class="col-xs-12">
+		    			<a href="http://jasonnaso.github.io/target-shoot/" type="button" class="btn my-btns">Target Shoot</a> 
+		    			<a href="http://jasonnaso.github.io/world-of-poker/" type="button" class="btn my-btns">World Poker</a>
+		    			<a href="http://nasoRemodel.com" type="button" class="btn my-btns">Remodel</a>
+		    		</div>
+		    	</div>
+		    	
+		    	<div class="row">
+		    		<div class="col-xs-12">
+		    			<a href="jensenOnlineImages/index.html" type="button" class="btn my-btns">Jensen Yrkes</a>
+		    			<a href="http://jasonnaso.github.io/GetPaidToAdminChart" type="button" class="btn my-btns">GPT Chart</a>
+		    			<a href="http://www.raketherake.com//" type="button" class="btn my-btns">RTR Wings</a>
+		    		</div>
+		    	</div>
+		    	</div>
+
+		    </div>
+		      
+		   	
+		  </div>
+		
+<div id="loader">
+</div>
+
+
+
+
+	<canvas id="canvas" width="1600" height="100" class="img-responsive"></canvas>
+
+
 	</body>
 
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src=""></script>
+<script>
+ $(window).load(function(){
+ $("#loader").fadeOut("slow");
+ });
+ </script>
+<script type="text/javascript" src="portfolio/assets/js/script.js"></script>
 
 </html>
 

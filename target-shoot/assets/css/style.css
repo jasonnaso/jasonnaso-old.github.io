@@ -1,0 +1,115 @@
+.title{
+
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+.initial-overlay{
+
+    background-color: #102321;
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+}
+
+.instructions-overlay{
+
+    background-image: url("../images/overlay.jpg");
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+}
+
+.overlay{
+    
+    background-image: url("../images/overlay.jpg");
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    top: 0;
+    left: 0;
+}
+
+
+.text{
+    
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+}
+
+.preloader-text{
+    
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: 10px;
+    margin-left: -50px;
+    left: 50%;
+}
+
+.preloader-gif{
+
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -103px;
+    left: 50%;
+}
+/*Get rid of this one*/
+.game-loading-gif{
+
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    margin-left: -103px;
+    left: 50%;
+}
+
+.game-container{
+
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%
+ }
+
+.btn-start{
+
+    position: absolute;
+    bottom: 20px;
+    margin-left: -103px;
+    left: 50%;
+}
+
+.instructions-text{
+    
+    color: white;
+    font-size: 25px;
+    margin: 50px;
+    text-align: center;
+}
+
+.good-luck-text{
+    
+    color: white;
+    font-size: 60px;
+    margin: 50px;
+    text-align: center;
+}
+
+.hide{
+
+    display: none;
+}
+
+
+        
+

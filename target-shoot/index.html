@@ -3,38 +3,45 @@
 <head> 
 	<meta charset="UTF-8"/>
 	<title>gameGpt</title>
-
-	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script> -->
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	
-	
-	<div class="game-container">
-		<div class="overlay">
-			<div class="opening-overlay-text">Welcome to Ready Aim Fire! Here's how it works. Push the start game or space bar and the gun site will move horizontally. When the site is in a position you like, push the Set Aim button or space bar and the site will then move vertically. Press the Fire Button or space bar when the site is over one of the three targets.  If you hit all three you win!!!</div>
-			<div class="good-luck">Good Luck!</div>
- 			<input type="image" src="assets/images/btnStartGame.png"  class="btn-start"  id="startGame" />
- 		</div>
 
+	<div class="game-container">
+
+		<div class="initial-overlay">
+			<div class="preloader-text">Initial Loading...</div>
+			<img class="preloader-gif" src="assets/images/loading.gif">
+		</div>
+			
+		<div class="hide instructions-overlay">
+			<div class="hide instructions-text welcome-text">GPTs Target Shoot!</div>
+			<div class="hide instructions-text">Step One: Blah blah blah blah<br>
+				Step Two:  Blah blah blah blah<br>
+				Step Three: Blah blah blah blah<br>
+				Good Luck!
+			</div>
+			<input type="image" src="assets/images/btn-start.png" class="btn-start hide" id="btnStart" />
+		</div>
+			
 		<div id="gptGame"></div>
 
-		<div class="end-game-overlay hide-this">
-			<div class="overlay-text timed-out hide-this">Timed Out</div>
-			<div class="overlay-text winner hide-this">Winner!  Nice Shootin Tex!</div>
-			<div class="overlay-text zero-hits hide-this">Zero Hits...Do you need Glasses?</div>
-			<div class="overlay-text one-hit hide-this">One Hit...Ones ok, I guess</div>
-			<div class="overlay-text two-hits hide-this">Two Hits...Close but no cigar.</div>
-			<div class="overlay-text">Banner</div>
+		<div class="overlay hide">
+			<div class="hide preloader-text">Game Loading...</div>
+			<img class="game-loading-gif hide" src="assets/images/loading.gif">
+			<div class="hide text timed-out">Timed Out</div>
+			<div class="hide text winner">Winner! Nice Shootin Tex!</div>
+			<div class="hide text zero-hits">Zero Hits...Do you need Glasses?</div>
+			<div class="hide text one-hit">One Hit...Ones ok, I guess</div>
+			<div class="hide text two-hits">Two Hits...Close but no cigar.</div>
+			<div class="hide text banner">Banner</div>
 		</div>
- 		<div class="title"><h3>Author: Jason Naso / Dec 2015</h3></div>
  	</div>
-	
 
-	<script type="text/javascript" src="js/phaser.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/phaser.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
 </body>
 </html>
 

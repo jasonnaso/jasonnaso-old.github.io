@@ -1,22 +1,27 @@
+html{
+
+	margin: 0px;
+    padding: 0px;
+}
 body{
 	
-	background-image: url("../images/bg.jpg");
+	/*background-image: url("../images/bg.jpg");*/
 	/*background-image: url("../images/bg2.jpg");*/
+	background-image: url('..images/')
     background-size: cover;
     background-attachment: fixed;
+
+
+}
+
+.zeroPaddingMargin{
+
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
  
-.hide-this{
-
-	display: none;
-
-}
-
-.my-btns{
-
-	margin: 10px;
-	width: 140px;
-}
 
 /*Remeber to hide the top row single button and hav it show on the bottom when under 1200*/
 
@@ -35,6 +40,8 @@ body{
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
 	border-radius:6px;
+	margin: 8px;
+	width: 105px;
 	border:4px solid #eeb44f;
 	display:inline-block;
 	cursor:pointer;
@@ -58,6 +65,7 @@ body{
 	background-color:#fb9e25;
 }
 .my-btns:active {
+
 	position:relative;
 	top:1px;
 }
@@ -67,10 +75,10 @@ body{
 /*///////////////////////*/
 
 
-#container {
+/*#container {
 
-	width: 520px;
-	height: 150px;
+	width: 375px;
+	height: 108px;
 	position: relative;
 	margin-left: auto;
     margin-right: auto;
@@ -79,19 +87,19 @@ body{
     /* min-height: 10em;
     display: table-cell;
     vertical-align: middle;*/
-}
+}*/
 
 .inside-container{
 	
-	 margin-left: auto;
+	margin-left: auto;
     margin-right: auto;
-    background-color: red;
+    /*background-color: white;*/
 
 }
 
 .border {
 	position: absolute;
-	width: 0px; border: 1px solid black; 
+	width: 0px; border: 1px solid red; 
 }
 /*.borderh { 
 	height: 0px; border: 1px solid black; 
@@ -115,66 +123,25 @@ body{
 
 
 
+#code-scroll {
 
-
-
-
-
-/*#content {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-   border-divs are 0px wide with 1px border all around, thus have a width & height of 2px (twice the border-width) -- 2 border-divs = 4 less pixels for the content ! 
-  width: 316px;
-  height: 236px;
-  background: red;
-  overflow: auto;
-  text-shadow: 0 0 1px #555;
-  text-align: justify;
+	width: 100%;
+	height: 230px;
+	background: url('../images/codeSmall.png') repeat-y;
+	-webkit-animation: backgroundScroll 10s linear infinite;
+	animation: backgroundScroll 100s linear infinite;
 }
-		*/
+ 
+@-webkit-keyframes backgroundScroll {
 
-
-/*#loader{
-		 z-index:999999;
-		 display:block;
-		 position:fixed;
-		 top:0;
-		 left:0;
-		 width:100%;
-		 height:100%;
-		 background:url(../images/gears.gif) 50% 50% no-repeat #cccccc;
-		}*/
-		
-/*.modal {
-
-    display:    none;
-    position:   fixed;
-    z-index:    1000;
-    top:        0;
-    left:       0;
-    height:     100%;
-    width:      100%;
-    background: rgba( 255, 255, 255, .8 ) 
-                url('http://i.stack.imgur.com/FhHRx.gif') 
-                50% 50% 
-                no-repeat;
+	from {background-position: 0 0;}
+	to {background-position: -1540px 0;}	
+}	
+ 
+/*@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
 }*/
-
-/* When the body has the loading class, we turn
-   the scrollbar off with overflow:hidden */
-/*body.loading {
-    overflow: hidden;   
-}
-
- Anytime the body has the loading class, our
-   modal element will be visible 
-body.loading .modal {
-    display: block;
-}*/
-
-
-
 
 
 

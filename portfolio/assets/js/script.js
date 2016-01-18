@@ -4,19 +4,47 @@
 $(function() {
     $(".border, #content").hide();
     $("#topbar").show();
-    $("#topbar").animate({width: "318px"},1000, function() {
+    $("#topbar").animate({width: "100%"},1000, function() {
       $("#rightbar").show();
-      $("#rightbar").animate({height: "238px"},1000, function() {
+      $("#rightbar").animate({height: "100%"},1000, function() {
         $("#bottombar").show();
-        $("#bottombar").animate({width: "318px"},1000, function() {
+        $("#bottombar").animate({width: "100%"},1000, function() {
           $("#leftbar").show();
-          $("#leftbar").animate({height: "238px"},1000, function() {
+          $("#leftbar").animate({height: "100%"},1000, function() {
             $("#content").fadeIn(1000);
           });
         });
       });
     });
   });
+
+
+
+
+var ctx = document.querySelector("canvas").getContext("2d"),
+    dashLen = 220, dashOffset = dashLen, speed = 10,
+    txt = "Jason Naso", x = 30, i = 0;
+
+ctx.font = "100px Comic Sans MS, cursive, TSCu_Comic, sans-serif"; 
+ctx.lineWidth = 5; ctx.lineJoin = "round"; ctx.globalAlpha = 2/3;
+ctx.strokeStyle = ctx.fillStyle = "red";
+
+(function loop() {
+  ctx.clearRect(x, 0, 60, 150);
+  ctx.setLineDash([dashLen - dashOffset, dashOffset - speed]); // create a long dash mask
+  dashOffset -= speed;                                         // reduce dash length
+  ctx.strokeText(txt[i], x, 90);                               // stroke letter
+
+  if (dashOffset > 0) requestAnimationFrame(loop);             // animate
+  else {
+    ctx.fillText(txt[i], x, 90);                               // fill final letter
+    dashOffset = dashLen;                                      // prep next char
+    x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
+    //ctx.setTransform(1, 0, 0, 1, 0, 3 * M ath.random());        // random y-delta
+    //ctx.rotate(Math.random() * 0.005);                         // random rotation
+    if (i < txt.length) requestAnimationFrame(loop);
+  }
+})();
 //http://jsbin.com/isoqi4/5/edit?html,js,output
 //https://www.html5andbeyond.com/css3-animated-backgrounds-infinite-scrolling-background/
 

@@ -1,0 +1,33 @@
+{
+  "chartData":[
+      
+      {
+        "value": "100.89",
+        "label": "Mon"
+      },
+      {
+        "value": "70",
+        "label": "Tue"
+      },
+      {
+        "value": "50",
+        "label": "Wed"
+      },
+      {
+        "value": "30",
+        "label": "Thu"
+      },
+      {
+        "value": "20",
+        "label": "Fri"
+      },
+      {
+        "value": "10",
+        "label": "Sat"
+      },
+      {
+        "value": "1",
+        "label": "Sun"
+      }
+     ]
+}

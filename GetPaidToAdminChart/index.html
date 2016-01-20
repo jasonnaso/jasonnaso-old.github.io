@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script  type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+
+
+    <link rel="stylesheet" href="css/style.css?<?php echo time();?>">
+    <title>Js Chart</title>
+  </head>
+
+<body>
+  
+  <div class="container">
+     
+     <div class="row placeholders">
+          
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <div class="admin-alerts-pink admin-alerts-all"><span class="admin-alerts-text support-requests"></span></div>
+          <h4>Support Requests</h4>
+        </div>
+            
+        <div class="col-xs-6 col-sm-3 placeholder">
+            <div class="admin-alerts-blue admin-alerts-all"><span class="admin-alerts-text cashout-giftcards"></span></div>
+            <h4>Cashouts and Giftcards</h4>
+        </div>
+            
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <div class="admin-alerts-red admin-alerts-all"><span class="admin-alerts-text phone-verification"></span></div>
+          <h4>Phone Verification</h4>
+        </div>
+            
+        <div class="col-xs-6 col-sm-3 placeholder">
+          <div class="admin-alerts-green admin-alerts-all"><span class="admin-alerts-text alertPoints"></span></div>
+          <h4>Total</h4>
+        </div>
+    
+    </div>
+          
+  
+     <div class="row canvas-both">
+        <div class="col-sm-6">
+            <h3>Points Earned</h3>
+            <div class="canvasStyling">
+            <canvas id="canvas-points" class="chart-active" data-chart-type="points"></canvas>
+              <ul class="nav nav-pills text-center">
+                <li class="active" data-toggle="pill"><a href="#" class="chart-btn points" data-canvas="canvas-points" data-date-to="24">Day</a></li>
+                <li data-toggle="pill"><a href="#" class="chart-btn points" data-canvas="canvas-points" data-date-to="168">Week</a></li>
+                <li data-toggle="pill"><a href="#" class="chart-btn points" data-canvas="canvas-points" data-date-to="720">Month</a></li>  
+              </ul>  
+             
+            </div>
+        </div>
+      
+        <div class="col-sm-6">
+            <h3>Cash Outs</h3>
+            <div class="canvasStyling">
+            <canvas id="canvas-cashouts" class="chart-active" data-chart-type="cashouts"></canvas>
+              <ul class="nav nav-pills">
+                <li class="active" data-toggle="pill"><a href="#" class="chart-btn cashouts" data-canvas="canvas-cashouts" data-date-to="24">Day</a></li>
+                <li data-toggle="pill"><a href="#" class="chart-btn cashouts" data-canvas="canvas-cashouts" data-date-to="168">Week</a></li>
+                <li data-toggle="pill"><a href="#" class="chart-btn cashouts" data-canvas="canvas-cashouts" data-date-to="720">Month</a></li>
+              </ul>
+            </div>
+        </div>
+
+      </div>
+
+  </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script typr="text/javascript"src="bower_components/Chart.js/Chart.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    
+
+
+</body>
+
+</html>
+

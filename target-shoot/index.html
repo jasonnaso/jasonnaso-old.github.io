@@ -1,0 +1,48 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"/>
+	<title>gameGpt</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<div class="game-container">
+
+		<div class="initial-overlay">
+			<div class="preloader-text">Initial Loading...</div>
+			<img class="preloader-gif" src="assets/images/loading.gif" alt="Pre-loader-image">
+		</div>
+			
+		<div class="hide instructions-overlay">
+			<div class="hide instructions-text welcome-text">GPTs Target Shoot!</div>
+			<div class="hide instructions-text">
+				Step One: Press Start and gun site will move left to right<br>
+				Step Two:  Press Set Aim and the site will move up and down<br>
+				Step Three: When over a site SHOOT! Need all three to win!<br>
+				Good Luck!
+			</div>
+			<input type="image" src="assets/images/btn-start.png" class="btn-start hide" id="btnStart" />
+		</div>
+			
+		<div id="gptGame"></div>
+
+		<div class="overlay hide">
+			<div class="hide preloader-text">Game Loading...</div>
+			<img class="game-loading-gif hide" src="assets/images/loading.gif" alt="Game-loading-image">
+			<div class="hide text timed-out">Timed Out</div>
+			<div class="hide text winner">Winner! Nice Shootin Tex!</div>
+			<div class="hide text zero-hits">Zero Hits...Do you need Glasses?</div>
+			<div class="hide text one-hit">One Hit...Ones ok, I guess</div>
+			<div class="hide text two-hits">Two Hits...Close but no cigar.</div>
+			<div class="hide text banner">Banner</div>
+		</div>
+ 	</div>
+
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/phaser.min.js"></script>
+	<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
+

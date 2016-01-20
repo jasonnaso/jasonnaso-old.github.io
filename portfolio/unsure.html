@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Unsure</title>
+</head>
+<body>
+
+
+<script type="text/javascript">
+	
+	window.onload = draw;
+
+	function draw(){
+
+		console.log("Hi");
+		//$("#canvas1")[0].getContext('2d');
+		var canvas = document.getElementById("canvas1");
+		//var ctx = document.getElementById("canvas1").getContext('2d');
+		var ctx = canvas.getContext('2d');
+		//fillStyle (r,g,b,alpha);
+		// ctx.fillStyle = "rgba(100,100,100,0.5)";
+		//fillRect (x,y,width,height);
+		ctx.fillRect(36,10,100,100);
+
+		// ctx.fillStyle = "rgba(50,170,300,0.5)";
+		ctx.fillRect(36,120,100,100);
+
+		// ctx.fillStyle = "rgba(0,0,0,1)";
+		// ctx.beginPath();
+		// ctx.moveTo(130,50);
+		// ctx.lineTo(200,200);
+		// ctx.lineTo(50,200);
+		// ctx.fill();	
+
+		ctx.beginPath();
+		ctx.moveTo(10,300);
+		ctx.lineTo(400,300);
+		
+		ctx.stroke();
+
+
+	}
+
+
+
+</script>
+
+<canvas id="canvas1" width="500" height="500"></canvas>
+
+	
+</body>
+</html>

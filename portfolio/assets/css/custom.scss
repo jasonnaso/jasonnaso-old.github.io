@@ -1,0 +1,282 @@
+html{
+
+	margin: 0px;
+    padding: 0px;
+}
+
+.none{
+
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+a, a:hover
+   {
+     text-decoration:none;
+      color: white; 
+   }
+
+.border {
+	position: absolute;
+	width: 0px; border: 1px solid red; 
+}
+/*.borderh { 
+	height: 0px; border: 1px solid black; 
+}
+.borderv { 
+	width: 0px; border: 1px solid black; 
+}*/
+
+#topbar {   
+	left: 0px; top: 0px;
+}
+#rightbar {
+	right: 0px; top: 0px;
+}
+#bottombar {   
+	right: 0px; bottom: 0px;
+}
+#leftbar {
+	left: 0px; bottom: 0px;
+}
+
+
+/*////////////////////////////////////////////*/
+.all-boxes{
+	
+	width: 100%;
+	height: 220px;
+	color: black;
+}
+
+.text{
+	
+	padding-left: 10px;
+	padding-top: 15px;
+	font-family: Orator Std,Arial,sans-serif;
+	font-size: 1.513em;
+	font-weight: bold;
+}
+
+.code-one-img {
+	
+	background: url('../images/code-one.png');
+	background-repeat: repeat-y;
+	-webkit-animation: codeOne 50s  linear infinite;
+       -moz-animation: codeOne 50s  linear infinite;
+         -o-animation: codeOne 50s  linear infinite;
+            animation: codeOne 50s  linear infinite;
+
+}
+ 
+@-webkit-keyframes codeOne {
+
+	from {background-position: 0 0;}
+	to {background-position: -2350px 0;}	
+}
+
+.code-two-img{
+	
+	background: url('../images/code-two.jpg') repeat-y;
+	background-repeat: repeat-y;
+	-webkit-animation: codeTwo 50s  linear infinite;
+       -moz-animation: codeTwo 50s  linear infinite;
+         -o-animation: codeTwo 50s  linear infinite;
+	            animation: codeTwo 50s  linear infinite;
+}
+ 
+@-webkit-keyframes codeTwo {
+
+	from {background-position: -500px 0;}
+	to {background-position: 0 0;}	
+}
+
+.code-three-img {
+
+    background-image: url('../images/code-three.png');
+    background-repeat: repeat-y;
+    -webkit-animation: codeThree 50s infinite linear;
+       -moz-animation: codeThree 50s infinite linear;
+         -o-animation: codeThree 50s infinite linear;
+            animation: codeThree 50s infinite linear;
+}
+
+@-webkit-keyframes codeThree {
+  0%   { background-position: 0px; }
+  100% { background-position: 0px 1000px; }
+}
+
+.my-image{
+
+	background-image: url('../images/my-image.jpg');
+}
+
+
+.opacity-me{
+	
+	background-color: rgba(196,212,175, 0.5);
+}
+
+.opacity-one{
+	background-color: rgba(0,0,0, 0.7);
+}
+
+.opacity-three{
+
+	background-color: rgba(109, 134, 115, 0.8);
+}
+
+.opacity-two{
+
+	background-color: rgba(104,168,173, 0.8);
+	padding-bottom: 10px;
+}
+/*//////////////Buttons////////////////*/
+
+.my-btns-left {
+
+	background-color:  #63a6ab;  /*#478185   #9fc8cb*/
+	border-width: 1px;
+	margin: 8px;
+	width: 105px;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	border-radius: 0px;
+
+}
+.my-btns-left:hover {
+
+	background-color:  #77b2b6;
+	
+	
+}
+
+
+.my-btns-right {
+
+	background-color:  #667f6c;  /*#478185   #9fc8cb*/
+	border-width: 1px;
+	margin: 8px;
+	width: 105px;
+	display:inline-block;
+	cursor:pointer;
+	color: black;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	border-radius: 0px;
+
+
+}
+.my-btns-right:hover {
+
+	background-color: #7a9480;
+	/*#b0bfb3 5%, #667f6c*/
+}
+
+
+
+
+
+/*//////////////////////About Page///////////////*/
+
+.about-me{
+
+	background-color: rgba(109, 134, 115, 0.5);
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	overflow: scroll;
+
+}
+
+.experience{
+
+	background-color: rgba(196,212,175, 0.5);
+	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	overflow: scroll;
+
+}
+
+
+
+/*
+.all-about-boxes{
+
+	height: 200px;
+}*/
+
+#canvas {
+
+    width: 100%;
+    height: auto;
+}
+
+.canvas-container {
+
+        margin: 0 0px;
+        height: 220px;
+ }
+
+ .contact{
+
+ 	color: #667f6c;
+ 	margin-left: 2em;
+ 	position: absolute;
+ 	top: 180px;
+ 	left: 0px;
+
+
+
+ }
+
+  	.contact:nth-child(2) {
+
+  		left: 80px;
+     
+ }
+
+ 	.contact:nth-child(3) {
+
+  		left: 155px;
+     
+ }
+
+
+ /* a wrapper for the paginatior */
+/*.btn-group-wrap {
+    text-align: center;
+}
+
+div.btn-group {
+    margin: 0 auto; 
+    text-align: center;
+    width: inherit;
+    display: inline-block;
+}
+
+a {
+    float: left;   
+}
+*/
+
+
+
+
+
+
+
+
+

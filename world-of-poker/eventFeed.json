@@ -1,0 +1,367 @@
+{  
+   "status":"ok",
+   "count":4,
+   "pages":1,
+   "category":{  
+      "id":2148,
+      "slug":"world-poker-events",
+      "title":"World Poker Events",
+      "description":"This category lets you make post for the World Of Poker Map. ",
+      "parent":0,
+      "post_count":4
+   },
+   "posts":[  
+      {  
+         "id":15205,
+         "type":"post",
+         "slug":"sunny-mexico-test",
+         "url":"http:\/\/local.raketherake.com\/rakeback-news\/2015\/04\/14\/sunny-mexico-test\/",
+         "status":"publish",
+         "title":"Sunny Mexico Test",
+         "title_plain":"Sunny Mexico Test",
+         "content":"<p>Hello!!!<br \/>\nWelcome to sunny Mexico where if you play a poker tournament it is likely to get shut down and all xxx your money forfeited to the police!!! YEAAAAAA Tis was an occurence<\/p>\n",
+         "excerpt":"<p>Hello!!! Welcome to sunny Mexico where if you play a poker tournament it is likely to get shut down and all xxx your money forfeited to the police!!! YEAAAAAA Tis was an occurence<\/p>\n",
+         "date":"2015-04-14 09:26:34",
+         "modified":"2015-04-22 14:02:03",
+         "categories":[  
+            {  
+               "id":2148,
+               "slug":"world-poker-events",
+               "title":"World Poker Events",
+               "description":"This category lets you make post for the World Of Poker Map. ",
+               "parent":0,
+               "post_count":4
+            }
+         ],
+         "tags":[  
+
+         ],
+         "author":{  
+            "id":19,
+            "slug":"jnaso",
+            "name":"Jason Naso",
+            "first_name":"Jason",
+            "last_name":"Naso",
+            "nickname":"jnaso",
+            "url":"",
+            "description":""
+         },
+         "comments":[  
+
+         ],
+         "attachments":[  
+
+         ],
+         "comment_count":0,
+         "comment_status":"open",
+         "custom_fields":{  
+            "Location":[  
+               "Mexico City, Mexico"
+            ],
+            
+            "EventDate":[  
+               "1st - 5th September 2013"
+            ]
+         }
+      },
+        {  
+         "id":13456,
+         "type":"post",
+         "slug":"sunny-mexico-test-double",
+         "url":"http:\/\/local.raketherake.com\/rakeback-news\/2015\/04\/14\/sunny-mexico-test\/",
+         "status":"publish",
+         "title":"Sunny Mexico Test Two",
+         "title_plain":"Sunny Mexico Test Two",
+         "content":"<p>Hello!!!<br \/>\nWelcome to TWO TWO TWO sunny Mexico where if you play a poker tournament it is likely to get shut down and all xxx your money forfeited to the police!!! YEAAAAAA Tis was an occurence<\/p>\n",
+         "excerpt":"<p>Hello!!! Welcome to sunny Mexico where if you play a poker tournament it is likely to get shut down and all xxx your money forfeited to the police!!! YEAAAAAA Tis was an occurence<\/p>\n",
+         "date":"2015-04-14 09:26:34",
+         "modified":"2015-04-22 14:02:03",
+         "categories":[  
+            {  
+               "id":2222,
+               "slug":"world-poker-events",
+               "title":"World Poker Events",
+               "description":"This category lets you make post for the World Of Poker Map. ",
+               "parent":0,
+               "post_count":4
+            }
+         ],
+         "tags":[  
+
+         ],
+         "author":{  
+            "id":19,
+            "slug":"jnaso TWO",
+            "name":"Jason Naso",
+            "first_name":"Jason TWO",
+            "last_name":"Naso TWO",
+            "nickname":"jnaso TWO",
+            "url":"",
+            "description":""
+         },
+         "comments":[  
+
+         ],
+         "attachments":[  
+
+         ],
+         "comment_count":0,
+         "comment_status":"open",
+         "custom_fields":{  
+            "Location":[  
+               "Mexico City, Mexico"
+            ],
+            
+            "EventDate":[  
+               "1st - 5th September 2013"
+            ]
+         }
+      },
+      {  
+         "id":15196,
+         "type":"post",
+         "slug":"testing-poker-event",
+         "url":"http:\/\/local.raketherake.com\/rakeback-news\/2015\/04\/09\/testing-poker-event\/",
+         "status":"publish",
+         "title":"Las Vegas Poker Event",
+         "title_plain":"Las Vegas Poker Event",
+         "content":"<p>This is the main section that should come up after read more::::::<\/p>\n",
+         "excerpt":"<p>Testing the excerpt section and read more href.  And testing how<br \/>\nwordpress outputs text from their site when using return, two spaces indentation&#8230;<br \/>\n       This was indented five spaces and after i will return twice.<\/p>\n<p>Now im back&#8230; <\/p>\n",
+         "date":"2015-04-09 14:29:30",
+         "modified":"2015-04-17 02:39:02",
+         "categories":[  
+            {  
+               "id":2148,
+               "slug":"world-poker-events",
+               "title":"World Poker Events",
+               "description":"This category lets you make post for the World Of Poker Map. ",
+               "parent":0,
+               "post_count":4
+            }
+         ],
+         "tags":[  
+
+         ],
+         "author":{  
+            "id":3,
+            "slug":"andy",
+            "name":"RTR George",
+            "first_name":"Andy",
+            "last_name":"Wilson",
+            "nickname":"RTR George",
+            "url":"",
+            "description":""
+         },
+         "comments":[  
+            {  
+               "id":3085,
+               "name":"Jason Naso",
+               "url":"",
+               "date":"2015-04-17 02:42:54",
+               "content":"<p>Here is a new comment section&#8230;but i couldnt get the promo working in the custom fields<\/p>\n",
+               "parent":0,
+               "author":{  
+                  "id":19,
+                  "slug":"jnaso",
+                  "name":"Jason Naso",
+                  "first_name":"Jason",
+                  "last_name":"Naso",
+                  "nickname":"jnaso",
+                  "url":"",
+                  "description":""
+               }
+            },
+            {  
+               "id":3086,
+               "name":"Jason Naso",
+               "url":"",
+               "date":"2015-04-17 02:43:54",
+               "content":"<p>hi<\/p>\n",
+               "parent":0,
+               "author":{  
+                  "id":19,
+                  "slug":"jnaso",
+                  "name":"Jason Naso",
+                  "first_name":"Jason",
+                  "last_name":"Naso",
+                  "nickname":"jnaso",
+                  "url":"",
+                  "description":""
+               }
+            }
+         ],
+         "attachments":[  
+
+         ],
+         "comment_count":2,
+         "comment_status":"open",
+         "custom_fields":{  
+            "Location":[  
+               "Las Vegas, USA"
+            ],
+            "EventDate":[  
+               "Way Back When"
+            ]
+         }
+      },
+      {  
+         "id":13177,
+         "type":"post",
+         "slug":"the-english-poker-open",
+         "url":"http:\/\/local.raketherake.com\/rakeback-news\/2012\/10\/04\/the-english-poker-open\/",
+         "status":"publish",
+         "title":"The English Poker Open",
+         "title_plain":"The English Poker Open",
+         "content":"<p>The English Poker Open (EPO) is one of Europe&#8217;s newest and most exciting live poker tournaments, both celebrating and reaffirming England as one of the world&#8217;s best live poker locations. Previously held at Nottingham&#8217;s <em>Dusk Till Dawn<\/em> poker club and at The Palm Beach, Mayfair, London<\/p>\n<p><strong>The English Poker Open 2012<\/strong><\/p>\n<p>What began with 137 players came to an exciting conclusion with Mickey Petersen winning the 2012 English Poker Open. The Dane defeated Sweden&#8217;s Chris Bjorin heads-up to win a \u00a378,660 ($127,807) top prize and become &#8220;England&#8217;s King of Poker.&#8221; Petersen came into the heads-up portion with a 4.5-to-1 chip advantage, which really helped him push an aggressive style. Bjorin did manage to double up a couple of times, but he was never able to pull even. The final hand provided plenty of drama as Mickey shoved with 9c-9h and Chris called from the big blind with As-Kc. The board was dealt 7h-Td-8h-5s-5h, which made Petersen&#8217;s pocket 9&#8217;s the better hand.<\/p>\n<p>Check out the <a href=\"http:\/\/www.raketherake.com\/rakeback-news\/?s=English+Poker+Open\" target=\"_blank\">RakeTheRake blog<\/a> for the final standings and the <a href=\"http:\/\/www.raketherake.com\/rakeback-news\/2012\/09\/22\/epo2012-final-table-recap-mickey-petersen-wins\/\" target=\"_blank\">EPO2012 final table results<\/a>, and much more info on the English Poker Open.<\/p>\n",
+         "excerpt":"<p>The English Poker Open (EPO) is one of Europe&#8217;s newest and most exciting live poker tournaments, both celebrating and reaffirming England as one of the world&#8217;s best live poker locations. Previously held at Nottingham&#8217;s Dusk Till Dawn poker club and at The Palm Beach, Mayfair, London The English Poker Open 2012 What began with 137 players came to an exciting conclusion with Mickey Petersen winning the 2012 English Poker Open. The Dane defeated Sweden&#8217;s Chris Bjorin heads-up to win a \u00a378,660 ($127,807) top prize and become &#8220;England&#8217;s King of Poker.&#8221; Petersen came into the heads-up portion with a 4.5-to-1 chip &hellip;<\/p>\n",
+         "date":"2012-10-04 13:11:25",
+         "modified":"2015-04-17 05:33:22",
+         "categories":[  
+            {  
+               "id":2148,
+               "slug":"world-poker-events",
+               "title":"World Poker Events",
+               "description":"This category lets you make post for the World Of Poker Map. ",
+               "parent":0,
+               "post_count":4
+            }
+         ],
+         "tags":[  
+
+         ],
+         "author":{  
+            "id":14,
+            "slug":"cmoore",
+            "name":"RTR Dave",
+            "first_name":"Chris",
+            "last_name":"Moore",
+            "nickname":"RTR Dave",
+            "url":"",
+            "description":""
+         },
+         "comments":[  
+
+         ],
+         "attachments":[  
+
+         ],
+         "comment_count":0,
+         "comment_status":"open",
+         "custom_fields":{  
+            "Location":[  
+               "London, England"
+            ],
+            "EventDate":[  
+               "Gammal dags"
+            ]
+         }
+      },
+      {  
+         "id":12165,
+         "type":"post",
+         "slug":"irish-poker-open",
+         "url":"http:\/\/local.raketherake.com\/rakeback-news\/2012\/06\/12\/irish-poker-open\/",
+         "status":"publish",
+         "title":"Irish Poker Open",
+         "title_plain":"Irish Poker Open",
+         "content":"<p>The Irish Poker Open is the longest running No Limit Texas Hold \u2019em poker tournaments in Europe, and is one of the longest running and richest poker opens in the world. Started in 1981 by Irish Bookmaker Terry Rodgers, its thirty two years of existence make it the second longest running tournament series in the world \u2013 second only to the World Series of Poker, Las Vegas. The 2011 Irish Poker Open\u2019s Main Event prize was a whopping \u20ac1,968,000 with Main Event winner Niall Smyth collecting \u20ac550,000!<\/p>\n<p>2012 saw the paddypowerpoker.com Irish Poker Open held at Dublin\u2019s Burlington Hotel from 6th \u2013 9th April with a total prize pool of \u20ac1,602,000. The Irish Open 2012 attracted arguably the most impressive field of poker players yet, with multiple WSOP bracelet winners Freddy Deeb and Daniel Negreanu; former world champions Phil Hellmuth, Dan Harrington, Carlos Mortensen, Noel Furlong and Jonathan Duhamel; young Irish and UK stars Dermot Blaine, Sean Prendiville, Jake Cody, Roberto Romanello and JP Kelly;\u00a0 online hotshots Adam Levy and Jason Wheeler; and sports legends Ken Doherty and Teddy Sheringham all in attendance!<\/p>\n<p>In a field of 502 players, with some of the most formidable pros in poker making up the number, it was Belgium&#8217;s\u00a0Kevin Vandersmissen who won the 2012 Irish Poker Open, beating German player Thomas Beer. Below is what the IPO 2012 final table payouts looked like.<\/p>\n<ul>\n<li>1st &#8211;\u00a0 Kevin Vandersmissen (\u20ac420,000)<\/li>\n<li>2nd &#8211; Thomas Beer (\u20ac225,000)<\/li>\n<li>3rd &#8211; David \u201cDixie\u201d Dean (\u20ac158,000)<\/li>\n<li>4th &#8211; Ian Simpson &#8211; (\u20ac107,500)<\/li>\n<li>5th &#8211; Steve Watts &#8211; (\u20ac78,000)<\/li>\n<li>6th &#8211; Jordan Lewis &#8211; (\u20ac59,000)<\/li>\n<li>7th &#8211; Samuel Chartier (\u20ac44,500)<\/li>\n<li>8th &#8211; Andy Black (\u20ac32,700)<\/li>\n<li>9th &#8211; Philip Magennis\u00a0 (\u20ac23,000)<\/li>\n<\/ul>\n",
+         "excerpt":"<p>The Irish Poker Open is the longest running No Limit Texas Hold \u2019em poker tournaments in Europe, and is one of the longest running and richest poker opens in the world. Started in 1981 by Irish Bookmaker Terry Rodgers, its thirty two years of existence make it the second longest running tournament series in the world \u2013 second only to the World Series of Poker, Las Vegas. The 2011 Irish Poker Open\u2019s Main Event prize was a whopping \u20ac1,968,000 with Main Event winner Niall Smyth collecting \u20ac550,000! 2012 saw the paddypowerpoker.com Irish Poker Open held at Dublin\u2019s Burlington Hotel from &hellip;<\/p>\n",
+         "date":"2012-06-12 13:06:52",
+         "modified":"2015-04-20 07:20:25",
+         "categories":[  
+            {  
+               "id":2148,
+               "slug":"world-poker-events",
+               "title":"World Poker Events",
+               "description":"This category lets you make post for the World Of Poker Map. ",
+               "parent":0,
+               "post_count":4
+            }
+         ],
+         "tags":[  
+            {  
+               "id":244,
+               "slug":"burlington-hotel",
+               "title":"Burlington Hotel",
+               "description":"",
+               "post_count":2
+            },
+            {  
+               "id":363,
+               "slug":"daniel-negreanu",
+               "title":"daniel negreanu",
+               "description":"",
+               "post_count":24
+            },
+            {  
+               "id":2429,
+               "slug":"dublin",
+               "title":"Dublin",
+               "description":"",
+               "post_count":1
+            },
+            {  
+               "id":2178,
+               "slug":"irish-poker-open",
+               "title":"Irish Poker Open",
+               "description":"",
+               "post_count":4
+            },
+            {  
+               "id":793,
+               "slug":"jonathan-duhamel",
+               "title":"Jonathan Duhamel",
+               "description":"",
+               "post_count":7
+            },
+            {  
+               "id":2430,
+               "slug":"niall-smyth",
+               "title":"Niall Smyth",
+               "description":"",
+               "post_count":1
+            },
+            {  
+               "id":1176,
+               "slug":"phil-hellmuth",
+               "title":"phil hellmuth",
+               "description":"",
+               "post_count":31
+            },
+            {  
+               "id":1823,
+               "slug":"world-series-of-poker",
+               "title":"World Series of Poker",
+               "description":"",
+               "post_count":37
+            }
+         ],
+         "author":{  
+            "id":14,
+            "slug":"cmoore",
+            "name":"RTR Dave",
+            "first_name":"Chris",
+            "last_name":"Moore",
+            "nickname":"RTR Dave",
+            "url":"",
+            "description":""
+         },
+         "comments":[  
+
+         ],
+         "attachments":[  
+
+         ],
+         "comment_count":0,
+         "comment_status":"open",
+         "custom_fields":{  
+            "Location":[  
+               "Dublin, Ireland"
+            ],
+            "EventDate":[  
+               "November 1st 1899"
+            ]
+         }
+      }
+   ]
+}

@@ -6,8 +6,8 @@ html{
 
 .none{
 
-	margin-left: 0px;
-	margin-right: 0px;
+	/*margin-left: 0px;
+	margin-right: 0px;*/
 	padding-left: 0px;
 	padding-right: 0px;
 }
@@ -194,8 +194,8 @@ a, a:hover
 
 	background-color: rgba(109, 134, 115, 0.5);
 	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 	overflow: scroll;
 
 }
@@ -204,9 +204,10 @@ box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 
 	background-color: rgba(196,212,175, 0.5);
 	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 	overflow: scroll;
+	
 
 }
 

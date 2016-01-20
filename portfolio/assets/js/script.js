@@ -44,8 +44,8 @@ ctx.strokeStyle = ctx.fillStyle = "#68a8ad";
     ctx.fillText(txt[i], x, 90);                               // fill final letter
     dashOffset = dashLen;                                      // prep next char
     x += ctx.measureText(txt[i++]).width + ctx.lineWidth * Math.random();
-    //ctx.setTransform(1, 0, 0, 1, 0, 3 * M ath.random());        // random y-delta
-    //ctx.rotate(Math.random() * 0.005);                         // random rotation
+    ctx.setTransform(1, 0, 0, 1, 0, 3 * Math.random());        // random y-delta
+    ctx.rotate(Math.random() * 0.005);                         // random rotation
     if (i < txt.length) requestAnimationFrame(loop);
   }
 })();

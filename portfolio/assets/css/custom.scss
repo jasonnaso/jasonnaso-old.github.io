@@ -1,26 +1,7 @@
-html{
-
-	margin: 0px;
-    padding: 0px;
-}
-
-.none{
-
-	/*margin-left: 0px;
-	margin-right: 0px;*/
-	padding-left: 0px;
-	padding-right: 0px;
-}
-
-a, a:hover
-   {
-     text-decoration:none;
-      color: white; 
-   }
 
 .border {
 	position: absolute;
-	width: 0px; border: 1px solid red; 
+	width: 0px; border: 1px solid gray; 
 }
 /*.borderh { 
 	height: 0px; border: 1px solid black; 
@@ -43,7 +24,6 @@ a, a:hover
 }
 
 
-/*////////////////////////////////////////////*/
 .all-boxes{
 	
 	width: 100%;
@@ -177,6 +157,8 @@ a, a:hover
 	border-radius: 0px;
 
 
+
+
 }
 .my-btns-right:hover {
 
@@ -184,11 +166,6 @@ a, a:hover
 	/*#b0bfb3 5%, #667f6c*/
 }
 
-
-
-
-
-/*//////////////////////About Page///////////////*/
 
 .about-me{
 
@@ -207,8 +184,6 @@ a, a:hover
 	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 	overflow: scroll;
-	
-
 }
 
 
@@ -229,6 +204,10 @@ a, a:hover
 
         margin: 0 0px;
         height: 220px;
+        a {
+        	text-decoration: none;
+        	color: black; 
+        }
  }
 
  .contact{
@@ -238,40 +217,73 @@ a, a:hover
  	position: absolute;
  	top: 180px;
  	left: 0px;
-
-
-
- }
+}
 
   	.contact:nth-child(2) {
 
-  		left: 80px;
+  		left: 6em;
      
  }
 
  	.contact:nth-child(3) {
 
-  		left: 155px;
+  		left: 11.7em;
      
  }
 
+ a:hover{
 
- /* a wrapper for the paginatior */
-/*.btn-group-wrap {
-    text-align: center;
+ 	color: gray;
+ }
+
+
+
+@media screen and (max-width: 768px) {
+	
+
+    .pagination>li:nth-child(-n+5) a{
+
+        margin-left: 4em;
+    }
+
+    .contact{
+
+    	color: #667f6c;
+    	
+    	
+    	margin-top: 50%;
+    	top: -30px;
+    	margin-left: 50%;
+    	left: -30px;
+
+
+
+    }
+
+     	.contact:nth-child(2) {
+			
+		margin-top: 50%;
+		top: -10px;
+    	margin-left: 50%;
+    	left: -30px;
+        
+    }
+
+    	.contact:nth-child(3) {
+
+     	margin-top: 50%;
+     	top: 10px;
+    	margin-left: 50%;
+    	left: -30px;
+        
+    }
 }
 
-div.btn-group {
-    margin: 0 auto; 
-    text-align: center;
-    width: inherit;
-    display: inline-block;
-}
+.none{
 
-a {
-    float: left;   
+	padding-left: 0px;
+	padding-right: 0px;
 }
-*/
 
 
 

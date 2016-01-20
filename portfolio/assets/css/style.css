@@ -77,10 +77,13 @@
   100% {
     background-position: 0px 1000px; } }
 .my-image {
-  background-image: url("../images/my-image.jpg"); }
+  background: url("../images/my-image.jpg") right center no-repeat;
+  /*background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center; */ }
 
 .opacity-me {
-  background-color: rgba(196, 212, 175, 0.5); }
+  background-color: rgba(196, 212, 175, 0.7); }
 
 .opacity-one {
   background-color: rgba(0, 0, 0, 0.7); }

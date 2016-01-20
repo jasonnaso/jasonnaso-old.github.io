@@ -90,13 +90,16 @@
 
 .my-image{
 
-	background-image: url('../images/my-image.jpg');
+	background: url('../images/my-image.jpg') right center no-repeat;
+	/*background-repeat: no-repeat;
+	   background-attachment: fixed;
+	   background-position: center; */
 }
 
 
 .opacity-me{
 	
-	background-color: rgba(196,212,175, 0.5);
+	background-color: rgba(196,212,175, 0.7);
 }
 
 .opacity-one{

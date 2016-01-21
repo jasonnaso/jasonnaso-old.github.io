@@ -42,12 +42,12 @@
 
 .code-one-img {
 	
-	background: url('../images/code-one.png');
+	background: url('../images/code-one2.png');
 	background-repeat: repeat-y;
-	-webkit-animation: codeOne 50s  linear infinite;
-       -moz-animation: codeOne 50s  linear infinite;
-         -o-animation: codeOne 50s  linear infinite;
-            animation: codeOne 50s  linear infinite;
+	-webkit-animation: codeOne 80s  linear infinite;
+       -moz-animation: codeOne 80s  linear infinite;
+         -o-animation: codeOne 80s  linear infinite;
+            animation: codeOne 80s  linear infinite;
 
 }
  
@@ -73,24 +73,11 @@
 	to {background-position: 0 0;}	
 }
 
-.code-three-img {
 
-    background-image: url('../images/code-three.png');
-    background-repeat: repeat-y;
-    -webkit-animation: codeThree 50s infinite linear;
-       -moz-animation: codeThree 50s infinite linear;
-         -o-animation: codeThree 50s infinite linear;
-            animation: codeThree 50s infinite linear;
-}
-
-@-webkit-keyframes codeThree {
-  0%   { background-position: 0px; }
-  100% { background-position: 0px 1000px; }
-}
 
 .my-image{
 
-	background: url('../images/my-image.jpg') right center no-repeat;
+	background: url('../images/my-image-2.png') right center no-repeat;
 	/*background-repeat: no-repeat;
 	   background-attachment: fixed;
 	   background-position: center; */
@@ -99,7 +86,7 @@
 
 .opacity-me{
 	
-	background-color: rgba(196,212,175, 0.7);
+	background-color: rgba(196,212,175, 0.2);
 }
 
 .opacity-one{
@@ -173,9 +160,6 @@
 .about-me{
 
 	background-color: rgba(109, 134, 115, 0.5);
-	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 	overflow: scroll;
 
 }
@@ -183,9 +167,6 @@
 .experience{
 
 	background-color: rgba(196,212,175, 0.5);
-	-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 	overflow: scroll;
 }
 
@@ -204,7 +185,8 @@
 }
 
 .canvas-container {
-
+		
+		background-color: #f0f1f2;
         margin: 0 0px;
         height: 220px;
         a {
@@ -287,6 +269,21 @@
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
+
+footer{
+	
+	
+	background-color: #f0f1f2;
+	height: 150px;
+	font-weight: lighter;
+	font-variant: helvetica;text-align: center;
+
+
+}
+
+
+
 
 
 

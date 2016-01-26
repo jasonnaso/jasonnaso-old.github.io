@@ -9,7 +9,7 @@ body{
    
     position: relative;
     margin-left: 42%;
-    top: 7em;
+    top: 1em;
 
 }
 .title{
@@ -60,6 +60,18 @@ body{
     text-align: center;
 }
 
+.banner{
+
+      color: white;
+    font-size: 20px;
+    margin: 50px;
+    text-align: center;
+
+
+
+}
+
+
 .preloader-text{
     
     color: white;
@@ -93,7 +105,7 @@ body{
     position: relative;
     margin-left: 50%;
     left: -400px;
-    margin-top: 10%;
+    margin-top: 5%;
 
  }
 

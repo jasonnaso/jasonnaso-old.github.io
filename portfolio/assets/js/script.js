@@ -51,7 +51,7 @@ ctx.strokeStyle = ctx.fillStyle = "#68a8ad";
 
 
 
-    $('.logo-naso').hover(function() {
+    $('.all-img').hover(function() {
 
         $(this).addClass('transition');
  

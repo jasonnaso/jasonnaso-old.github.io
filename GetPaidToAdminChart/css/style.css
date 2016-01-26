@@ -7,6 +7,15 @@ body{
     margin-top: 10em;
 }
 
+.gpt-img{
+    
+   
+    position: relative;
+    margin-left: 42%;
+    top: 5em;
+
+}
+
 /*Holds all alerts*/
 .placeholders {
     padding: 20px;  

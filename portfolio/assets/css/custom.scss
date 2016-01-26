@@ -53,10 +53,15 @@ body{
 	font-size: 1.513em;
 	font-weight: bold;
 	overflow: scroll;
-	/*border-style: solid;*/
+	
 	margin-top: 7em;
 	color: black;
-	background-color: lightblue;
+
+}
+
+li{
+
+	list-style-type: none;
 }
 
 /*.code-one-img {

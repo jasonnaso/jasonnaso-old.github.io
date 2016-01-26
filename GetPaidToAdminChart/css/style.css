@@ -2,6 +2,11 @@ body{
   background-color: white;
 }
 
+.give-margin{
+
+    margin-top: 20em;
+}
+
 /*Holds all alerts*/
 .placeholders {
     padding: 20px;  

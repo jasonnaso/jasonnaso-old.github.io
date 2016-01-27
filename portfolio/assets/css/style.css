@@ -9,26 +9,37 @@ body {
   width: 0px;
   border: 1px solid gray; }
 
-/*.borderh { 
-	height: 0px; border: 1px solid black; 
-}
-.borderv { 
-	width: 0px; border: 1px solid black; 
-}*/
-#topbar {
+.line-one {
+  height: 0px;
+  border: 1px solid DarkKhaki; }
+
+.line-two {
+  width: 0px;
+  border: 1px solid gray; }
+
+#lineOne {
   left: 0px;
   top: 0px; }
 
-#rightbar {
-  right: 0px;
-  top: 0px; }
-
-#bottombar {
+/*#rightbar {
+	right: 0px; top: 0px;
+}*/
+#lineTwo {
   right: 0px;
   bottom: 0px; }
 
-#leftbar {
+/*#leftbar {
+	left: 0px; bottom: 0px;
+}*/
+#lineThree {
   left: 0px;
+  top: 0px; }
+
+/*#rightbar {
+	right: 0px; top: 0px;
+}*/
+#lineFour {
+  right: 0px;
   bottom: 0px; }
 
 .text1 {

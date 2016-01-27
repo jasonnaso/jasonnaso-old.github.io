@@ -13,24 +13,43 @@ body{
 	position: absolute;
 	width: 0px; border: 1px solid gray; 
 }
-/*.borderh { 
-	height: 0px; border: 1px solid black; 
-}
-.borderv { 
-	width: 0px; border: 1px solid black; 
-}*/
+.line-one { 
 
-#topbar {   
+	height: 0px; 
+	border: 1px solid DarkKhaki; 
+}
+
+.line-two {
+
+	width: 0px; 
+	border: 1px solid gray; 
+}
+
+#lineOne { 
+
 	left: 0px; top: 0px;
+
 }
-#rightbar {
+/*#rightbar {
 	right: 0px; top: 0px;
-}
-#bottombar {   
+}*/
+#lineTwo {   
 	right: 0px; bottom: 0px;
 }
-#leftbar {
+/*#leftbar {
 	left: 0px; bottom: 0px;
+}*/
+
+#lineThree { 
+
+	left: 0px; top: 0px;
+	
+}
+/*#rightbar {
+	right: 0px; top: 0px;
+}*/
+#lineFour {   
+	right: 0px; bottom: 0px;
 }
 
 .text1 {
@@ -211,15 +230,25 @@ footer{
     -o-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
 
+
+
 }
  
 .transition {
+
+
 	
     -webkit-transform: scale(1.07); 
     -moz-transform: scale(1.07);
     -o-transform: scale(1.07);
     transform: scale(1.07);
+
+
+
+
 }
+
+
 
 @media screen and (max-width: 768px){
 

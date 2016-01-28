@@ -6,8 +6,10 @@ body{
 
 .test{
 
-	/*background-color: #07575b;*/
+	background-color: #003366;
 }
+
+
 .border {
 
 	position: absolute;
@@ -74,7 +76,7 @@ body{
 	overflow: scroll;
 	
 	margin-top: 4em;
-	color: black;
+	color: white;
 
 }
 
@@ -224,28 +226,18 @@ footer{
 
 .all-img {
 
-  
-    -webkit-transition: all 1s ease-in-out;
+ 	-webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
-
-
-
 }
  
 .transition {
-
-
 	
-    -webkit-transform: scale(1.07); 
+	-webkit-transform: scale(1.07); 
     -moz-transform: scale(1.07);
     -o-transform: scale(1.07);
     transform: scale(1.07);
-
-
-
-
 }
 
 

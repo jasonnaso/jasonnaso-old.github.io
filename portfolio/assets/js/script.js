@@ -56,55 +56,108 @@ $(function() {
             });
 
     //Draw Line
-    function drawLine(topLine, bottomLine){
+
+    var topLine = "#lineOne";
+    // var bottomLine = "#";
+    drawLine(topLine);
+
+
+
+    function drawLine(topLine){
+
+        // $(window).on("scroll");
         $(".border").hide();
 
         $(topLine).show();
         $(topLine).animate({width: "100%"},1000, function() {
 
             $(topLine).animate({width: "0%"},1000);
-            $(bottomLine).show();
-            $(bottomLine).animate({width: "100%"},1000, function() {
+        //     $(bottomLine).show();
+        //     $(bottomLine).animate({width: "100%"},1000, function() {
 
-                $(bottomLine).animate({width: "0%"},1000);
+        //         $(bottomLine).animate({width: "0%"},1000);
           
+        // });
+            
+
         });
+
+    }
+
+    var waypoint = new Waypoint({
+
+      element: document.getElementById('waypointone'),
+      handler: function(direction) {
+
+        console.log('Scrolled to waypoint!');
+        topLine = "#lineTwo";
+        drawLine(topLine);
+
+        }
     });
 
-}
-    
-    var testScroll = (function() {
-        console.log("Testscroll called");
-        var executed = false;
+    var waypoint = new Waypoint({
 
-        return function () {
+      element: document.getElementById('waypointtwo'),
+      handler: function(direction) {
 
-            if (!executed && window.pageYOffset > 600) {
+        console.log('Scrolled to waypoint three!');
+        topLine = "#lineThree";
+        drawLine(topLine);
 
-              
+        }
+    });
+
+    var waypoint = new Waypoint({
+
+      element: document.getElementById('waypointthree'),
+      handler: function(direction) {
+
+        console.log('Scrolled to waypoint four!');
+        topLine = "#lineFour";
+        drawLine(topLine);
+
+        }
+    });
+  
+        
+            //  $(window).scroll(function() {
+
+            //     if ($(document).scrollTop() > 100) {
+
+            //         console.log("> 100");
+            //         executed = true;
                 
+            //         topLine = "#lineTwo";
+            //         // var bottomLine = "#lineFour";
+            //         drawLine(topLine);
+            //         // $(window).off("scroll");
+            //     }
+            // });
 
-                executed = true;
-                
-                // $(bottomLine).animate({width: "0%"},1000);
+            //   $(window).scroll(function() {
 
-                var topLine = "#lineThree";
-                var bottomLine = "#lineFour";
-                drawLine(topLine, bottomLine);
-            }
-        };
-    })();
-    window.onscroll = testScroll;
+            //      if (window.pageYOffset > 400) {
+            //          // executed = true;
+            //          console.log("> 400");
+            //          // // $(bottomLine).animate({width: "0%"},1000);
+
+            //          //  topLine = "#lineThree";
+            //          // // var bottomLine = "#lineFour";
+            //          // drawLine(topLine);
+            //          $(window).off("scroll");
+            //      }
+            //  });
+});
+    // window.onscroll = testScroll;
     //http://stackoverflow.com/questions/5672320/trigger-events-when-the-window-is-scrolled-to-certain-positions
     //http://stackoverflow.com/questions/12713564/function-in-javascript-that-can-be-called-only-once
-    var topLine = "#lineOne";
-    var bottomLine = "#lineTwo";
-    drawLine(topLine, bottomLine);
+   
 
 
 
 
-});
+
 
 
   
@@ -151,4 +204,65 @@ $(function() {
 // function keepOnLearning(){if (youKnowItAll){ youKnowItAll = false; } else { studyMore = true;}} function allMyGoals(x, y, z)
 // {if ((x === "KeepMovingForward") && (y === "helpOthers"));{ show();}} function thanksForVisitingMyPage(){var haveANiceDay = 1000000000000000; }}); 
 
+
+
+    //Draw Line
+//     function drawLine(topLine, bottomLine){
+//         $(".border").hide();
+
+//         $(topLine).show();
+//         $(topLine).animate({width: "100%"},1000, function() {
+
+//             $(topLine).animate({width: "0%"},1000);
+//             $(bottomLine).show();
+//             $(bottomLine).animate({width: "100%"},1000, function() {
+
+//                 $(bottomLine).animate({width: "0%"},1000);
+          
+//         });
+//     });
+
+// }
+    
+//     var testScroll = (function() {
+//         console.log("Testscroll called");
+//         var executed = false;
+
+//         return function () {
+
+//                if (!executed && window.pageYOffset > 600) {
+
+              
+                
+
+//                 executed = true;
+                
+                // $(bottomLine).animate({width: "0%"},1000);
+
+            //     var topLine = "#lineThree";
+            //     var bottomLine = "#lineFour";
+            //     drawLine(topLine, bottomLine);
+            // }
+
+            // if (!executed && window.pageYOffset > 600) {
+
+              
+                
+
+            //     executed = true;
+                
+                // $(bottomLine).animate({width: "0%"},1000);
+
+    //             var topLine = "#lineThree";
+    //             var bottomLine = "#lineFour";
+    //             drawLine(topLine, bottomLine);
+    //         }
+    //     };
+    // })();
+    // window.onscroll = testScroll;
+    //http://stackoverflow.com/questions/5672320/trigger-events-when-the-window-is-scrolled-to-certain-positions
+    //http://stackoverflow.com/questions/12713564/function-in-javascript-that-can-be-called-only-once
+    // var topLine = "#lineOne";
+    // var bottomLine = "#lineTwo";
+    // drawLine(topLine, bottomLine);
 

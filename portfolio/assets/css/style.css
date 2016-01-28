@@ -2,7 +2,7 @@ body {
   /*background-image: url('images/background-code.jpg');*/ }
 
 .test {
-  /*background-color: #07575b;*/ }
+  background-color: #003366; }
 
 .border {
   position: absolute;
@@ -55,7 +55,7 @@ body {
   font-weight: bold;
   overflow: scroll;
   margin-top: 4em;
-  color: black; }
+  color: white; }
 
 li {
   list-style-type: none; }

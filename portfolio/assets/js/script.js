@@ -42,17 +42,27 @@ $(function() {
                 if (i < txt.length) requestAnimationFrame(loop);
             }
         })();
-    }
+    }   
 
-        $('.all-img').hover(function() {
 
-            $(this).addClass('transition');
+
+
+            var direction = "left";
+        
+            $(".imgs").hover(function() {
+
+                
+           
+
+                $(this).addClass("img-transition-" + direction);
 
             }, 
 
             function() {
 
-                $(this).removeClass('transition');
+                $(this).removeClass("img-transition-" + direction);
+
+                direction == "left" ? direction = "right" : direction = "left";
             });
 
     //Draw Line
@@ -66,12 +76,12 @@ $(function() {
     function drawLine(topLine){
 
         // $(window).on("scroll");
-        $(".border").hide();
+        $(".draw-line").hide();
 
         $(topLine).show();
-        $(topLine).animate({width: "100%"},1000, function() {
+        $(topLine).animate({width: "100%"},700, function() {
 
-            $(topLine).animate({width: "0%"},1000);
+            $(topLine).animate({width: "0%"},700);
         //     $(bottomLine).show();
         //     $(bottomLine).animate({width: "100%"},1000, function() {
 
@@ -86,38 +96,40 @@ $(function() {
 
     var waypoint = new Waypoint({
 
-      element: document.getElementById('waypointone'),
+      element: document.getElementById('scrollMarkerOne'),
       handler: function(direction) {
 
-        console.log('Scrolled to waypoint!');
+       
         topLine = "#lineTwo";
         drawLine(topLine);
+        this.destroy();
 
         }
     });
 
     var waypoint = new Waypoint({
 
-      element: document.getElementById('waypointtwo'),
+      element: document.getElementById('scrollMarkerTwo'),
       handler: function(direction) {
 
-        console.log('Scrolled to waypoint three!');
         topLine = "#lineThree";
         drawLine(topLine);
+        this.destroy();
 
         }
     });
 
     var waypoint = new Waypoint({
 
-      element: document.getElementById('waypointthree'),
+      element: document.getElementById('scrollMarkerThree'),
       handler: function(direction) {
 
-        console.log('Scrolled to waypoint four!');
         topLine = "#lineFour";
         drawLine(topLine);
+        this.destroy();
 
-        }
+        },
+        offset: -25
     });
   
         
@@ -168,7 +180,7 @@ $(function() {
 
 
 //Draw Line
-//$(".border, #content").hide();
+//$(".draw-line, #content").hide();
 // $("#topbar").show();
 
 // $("#topbar").animate({width: "100%"},1000, function() {
@@ -208,7 +220,7 @@ $(function() {
 
     //Draw Line
 //     function drawLine(topLine, bottomLine){
-//         $(".border").hide();
+//         $(".draw-line").hide();
 
 //         $(topLine).show();
 //         $(topLine).animate({width: "100%"},1000, function() {

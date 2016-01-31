@@ -44,38 +44,39 @@ $(function() {
         })();
     }       
 
-            // $('.imgs').each(function(){
 
-            //     console.log("imgs = " + img);
+            $("img").hover(function() {
 
+                var whichImage = $(this).data("type");
 
-            // });
-            // var direction = "left";
+                if (whichImage === "left"){
 
-            $(".test-zoom").hover(function() {
+                     $(this).addClass("transition-left");
+                }
 
-                $(this).addClass("zoom");
+                if (whichImage === "right"){
 
-            }, 
+                     $(this).addClass("transition-right");
+                }
 
-            function() {
+                if(whichImage === "zoom"){
 
-                $(this).removeClass("zoom");
+                    $(this).addClass("transition-zoom");
+                }
 
-                // direction == "left" ? direction = "right" : direction = "left";
-            });
-        
-            $(".imgs").hover(function() {
-
-                $(this).addClass("rotate");
+                
 
             }, 
 
             function() {
 
-                $(this).removeClass("rotate");
+                var whichImage = $(this).data("type");
+                console.log(whichImage);
+                $(this).removeClass("transition-" + whichImage);
 
-                // direction == "left" ? direction = "right" : direction = "left";
+
+
+               
             });
 
     //Draw Line

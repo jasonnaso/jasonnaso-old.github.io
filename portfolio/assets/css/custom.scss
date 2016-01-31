@@ -1,16 +1,17 @@
 .main-color{
 
-	background-color: rgba(0, 51, 102, 1);
+	/*background-color: rgba(0, 51, 102, 1);*/
 	/*background: rgba(252,82,81,.75);*/
 }
 
 .text{
 	
+	padding: 80px;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.513em;
 	font-weight: bold;
 	overflow: scroll;
-	color: white;
+	color: black;
 }
 
 li {
@@ -47,13 +48,6 @@ li {
   	
 }*/
 
-.all-boxes {
-
-   /* width: 90%;*/
-  	/*padding: 30px;*/
-    
-  }
-
 
 
 #canvas{
@@ -82,38 +76,46 @@ li {
 }
 
 /*//////All Image Transitions////////*/
-.logos{
+/*.logos{
 
    -webkit-transition: all 1s ease-in-out;
    -moz-transition: all 1s ease-in-out;
    -o-transition: all 1s ease-in-out;
    -ms-transition: all 1s ease-in-out;
 
-}
+}*/
 
 .imgs {
 
- 	-webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
+ 	-webkit-transition: all 2.5s ease-in-out;
+    -moz-transition: all 2.5s ease-in-out;
+    -o-transition: all 2.5s ease-in-out;
+    -ms-transition: all 2.5s ease-in-out;
 }
 
-.test-zoom{
+/*.test-zoom{
 
 	-webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     -ms-transition: all 1s ease-in-out;
 
+}*/
+
+.transition-left{
+	
+	-webkit-transform:rotate(-5deg) scale(1.1);
+
 }
 
-.rotate {
+.transition-right{
 	
-		-webkit-transform:rotate(-5deg) scale(1.1);
-	}
+	-webkit-transform:rotate(5deg) scale(1.1);
 
-.zoom {
+}
+
+
+.transition-zoom {
 	
 		-webkit-transform: scale(1.1);
 	}
@@ -150,30 +152,51 @@ li {
 		font-size: 14px;
 	}
 
-.logos{
+/*.inline{
 
 	display: inline-block;
+}*/
+
+@media screen and(min-width: 768px){
+
+	.inline{
+
+	display: inline-block;
+	text-align: center;
+}
+
+
 }
 
 
 /*///Line Draw///*/
 
-
+/*
 .draw-line {
 
 	position: absolute;
-	width: 0px; border: 1px solid gray; 
+	width: 0px; border: 1px solid red; 
 }
 .line-one { 
 
 	height: 0px; 
-	border: 1px solid DarkKhaki; 
+	border: 1px solid red; 
 }
 
 .line-two {
 
 	width: 0px; 
-	border: 1px solid gray; 
+	border: 1px solid red; 
+}
+.line-three {
+
+	width: 0px; 
+	border: 1px solid red; 
+}
+.line-four {
+
+	width: 0px; 
+	border: 1px solid red; 
 }
 
 #lineOne { 
@@ -196,7 +219,7 @@ li {
 #lineFour {   
 	right: 0px; bottom: 0px;
 }
-
+*/
 /*Footer*/
 
 

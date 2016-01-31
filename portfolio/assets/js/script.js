@@ -42,27 +42,40 @@ $(function() {
                 if (i < txt.length) requestAnimationFrame(loop);
             }
         })();
-    }   
+    }       
+
+            // $('.imgs').each(function(){
+
+            //     console.log("imgs = " + img);
 
 
+            // });
+            // var direction = "left";
 
+            $(".test-zoom").hover(function() {
 
-            var direction = "left";
-        
-            $(".imgs").hover(function() {
-
-                
-           
-
-                $(this).addClass("img-transition-" + direction);
+                $(this).addClass("zoom");
 
             }, 
 
             function() {
 
-                $(this).removeClass("img-transition-" + direction);
+                $(this).removeClass("zoom");
 
-                direction == "left" ? direction = "right" : direction = "left";
+                // direction == "left" ? direction = "right" : direction = "left";
+            });
+        
+            $(".imgs").hover(function() {
+
+                $(this).addClass("rotate");
+
+            }, 
+
+            function() {
+
+                $(this).removeClass("rotate");
+
+                // direction == "left" ? direction = "right" : direction = "left";
             });
 
     //Draw Line

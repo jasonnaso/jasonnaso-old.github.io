@@ -1,12 +1,11 @@
 .main-color{
-
-	/*background-color: rgba(0, 51, 102, 1);*/
-	/*background: rgba(252,82,81,.75);*/
+	
+	background-color: #f5f9f9;
 }
 
 .text{
 	
-	padding: 80px;
+	padding: 4em 2em 0em 2em;
 	font-family: 'Poiret One', cursive;
 	font-size: 1.513em;
 	font-weight: bold;
@@ -33,7 +32,7 @@ li {
 .my-image{
 	
 	background: url('../images/index-imgs/my-image.jpg') center center no-repeat;
-	background-color: rgba(196,212,175, 0.2);
+	background-color: rgba(196,212,175, 0.1);
 	width: 100%;
 	height: 240px;
 
@@ -57,7 +56,7 @@ li {
 
 .canvas-container {
 		
-		background-color: rgba(196,212,175, 0.2);
+		background-color: rgba(196,212,175, 0.1);
 		height: 240px;
 	}
 
@@ -75,59 +74,32 @@ li {
 
 }
 
-/*//////All Image Transitions////////*/
-/*.logos{
+/*//////Image Transitions////////*/
 
-   -webkit-transition: all 1s ease-in-out;
-   -moz-transition: all 1s ease-in-out;
-   -o-transition: all 1s ease-in-out;
-   -ms-transition: all 1s ease-in-out;
-
-}*/
 
 .imgs {
 
- 	-webkit-transition: all 2.5s ease-in-out;
-    -moz-transition: all 2.5s ease-in-out;
-    -o-transition: all 2.5s ease-in-out;
-    -ms-transition: all 2.5s ease-in-out;
+ 	-webkit-transition: all 4s ease-in-out;
+    -moz-transition: all 4s ease-in-out;
+    -o-transition: all 4s ease-in-out;
+    -ms-transition: all 4s ease-in-out;
 }
-
-/*.test-zoom{
-
-	-webkit-transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -ms-transition: all 1s ease-in-out;
-
-}*/
 
 .transition-left{
 	
 	-webkit-transform:rotate(-5deg) scale(1.1);
-
 }
 
 .transition-right{
 	
 	-webkit-transform:rotate(5deg) scale(1.1);
-
 }
-
 
 .transition-zoom {
 	
 		-webkit-transform: scale(1.1);
 	}
 
-
-
-/*.img-wrapper{
-
-	width: 100%;
-	overflow: hidden;
-    position: relative;
-}*/
 
 .overflow{
 
@@ -136,135 +108,92 @@ li {
 
 .overlay {
 
-    /*background: rgba(252,82,81,.75);*/
-    background: rgba(0, 51, 102, 1);
+    /*background: rgba(0, 51, 102, 1);*/
     display: block;
+   /* padding: 10%;*/
 }
   
-.text-test{
+.img-text{
 
+	margin-top: -20%;
 	color:white;
 }
 
-.logo-text{
+.logo-text-style{
 
-		margin-left: 1em;
-		font-size: 14px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	overflow: scroll;
+	color: black;
+}
+
+.logo-text{
+	
+	@extend .logo-text-style;
+	font-size: 16px;
+	margin-bottom: 2em;
+
+
 	}
 
-/*.inline{
-
-	display: inline-block;
-}*/
-
-@media screen and(min-width: 768px){
-
-	.inline{
-
-	display: inline-block;
-	text-align: center;
-}
-
-
-}
-
-
-/*///Line Draw///*/
-
-/*
-.draw-line {
-
-	position: absolute;
-	width: 0px; border: 1px solid red; 
-}
-.line-one { 
-
-	height: 0px; 
-	border: 1px solid red; 
-}
-
-.line-two {
-
-	width: 0px; 
-	border: 1px solid red; 
-}
-.line-three {
-
-	width: 0px; 
-	border: 1px solid red; 
-}
-.line-four {
-
-	width: 0px; 
-	border: 1px solid red; 
-}
-
-#lineOne { 
-
-	left: 0px; top: 0px;
-
-}
-
-#lineTwo {   
-	right: 0px; bottom: 0px;
-}
-
-
-#lineThree { 
-
-	left: 0px; top: 0px;
+.logo-thanks{
+	
+	
+	@extend .logo-text-style;
+	margin-top: 1em;
+	font-size: 1.53em;
 	
 }
+	
+.logo-wrapper{
 
-#lineFour {   
-	right: 0px; bottom: 0px;
+	padding-left: 2em;
 }
-*/
-/*Footer*/
+
+.logo {
+
+ 	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+.transition-shadow{
+
+	-webkit-box-shadow:  0 5px 5px rgba(182, 182, 182, 0.75);
+       -moz-box-shadow:  0 5px 5px rgba(182, 182, 182, 0.75);
+            box-shadow:  0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+@media screen and (max-width: 768px){
+
+	.overflow{
+
+		margin-bottom: .5em;
+	}
+
+}
+
+@media screen and (max-width: 970px){
+
+	.text{
+
+		padding: 1em 2em 1em 2em;
+	}
+}
+
 
 
 footer{
 	
-	background-color: #f0f1f2;
+	background-color: rgba(196,212,175, 0.1);
 	height: 150px;
 	font-weight: lighter;
 	font-variant: helvetica;
 	text-align: center;
 }
 
-/*.code-one-img {
-	
-	background: url('../images/code-one2.png');
-	background-repeat: repeat-y;
-	-webkit-animation: codeOne 80s  linear infinite;
-       -moz-animation: codeOne 80s  linear infinite;
-         -o-animation: codeOne 80s  linear infinite;
-            animation: codeOne 80s  linear infinite;
-}
- 
-@-webkit-keyframes codeOne {
 
-	from {background-position: 0 0;}
-	to {background-position: -2350px 0;}	
-}
-
-
-
-.code-two-img{
-	
-	background: url('../images/code-two.jpg') repeat-y;
-	background-repeat: repeat-y;
-	-webkit-animation: codeTwo 50s  linear infinite;
-       -moz-animation: codeTwo 50s  linear infinite;
-         -o-animation: codeTwo 50s  linear infinite;
-	            animation: codeTwo 50s  linear infinite;
-}
- 
-@-webkit-keyframes codeTwo {
-
-	from {background-position: -500px 0;}
-	to {background-position: 0 0;}	
-}*/
 
 
 

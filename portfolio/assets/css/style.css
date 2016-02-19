@@ -7,7 +7,7 @@
   font-family: 'Poiret One', cursive;
   font-size: 1.513em;
   font-weight: bold;
-  overflow: scroll;
+  overflow: auto;
   color: black; }
 
 li {
@@ -78,7 +78,7 @@ li {
 .logo-text-style, .logo-text, .logo-thanks {
   font-family: 'Poiret One', cursive;
   font-weight: bold;
-  overflow: scroll;
+  overflow: auto;
   color: black; }
 
 .logo-text {
